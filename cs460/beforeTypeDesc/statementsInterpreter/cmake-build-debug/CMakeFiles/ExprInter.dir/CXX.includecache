@@ -1,0 +1,108 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/jmartinez's home/cs460/statementsInterpreter/ArithExpr.cpp
+iostream
+-
+ArithExpr.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/ArithExpr.hpp
+
+/Volumes/jmartinez's home/cs460/statementsInterpreter/ArithExpr.hpp
+Token.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Token.hpp
+SymTab.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/SymTab.hpp
+
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Parser.cpp
+vector
+-
+iostream
+-
+Token.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Token.hpp
+Parser.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Parser.hpp
+Statements.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Statements.hpp
+
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Parser.hpp
+Token.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Token.hpp
+Tokenizer.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Tokenizer.hpp
+SymTab.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/SymTab.hpp
+ArithExpr.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/ArithExpr.hpp
+Statements.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Statements.hpp
+vector
+-
+iostream
+-
+map
+-
+
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Statements.cpp
+Statements.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Statements.hpp
+
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Statements.hpp
+iostream
+-
+vector
+-
+ArithExpr.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/ArithExpr.hpp
+SymTab.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/SymTab.hpp
+
+/Volumes/jmartinez's home/cs460/statementsInterpreter/SymTab.hpp
+string
+-
+map
+-
+
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Token.cpp
+iostream
+-
+Token.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Token.hpp
+
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Token.hpp
+string
+-
+
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Tokenizer.cpp
+iostream
+-
+string
+-
+Tokenizer.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Tokenizer.hpp
+
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Tokenizer.hpp
+fstream
+-
+vector
+-
+Token.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Token.hpp
+
+/Volumes/jmartinez's home/cs460/statementsInterpreter/main.cpp
+iostream
+-
+vector
+-
+Token.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Token.hpp
+Tokenizer.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Tokenizer.hpp
+Parser.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Parser.hpp
+

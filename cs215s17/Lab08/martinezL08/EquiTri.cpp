@@ -1,0 +1,80 @@
+#include "EquiTri.h"
+#include <cmath>
+
+using namespace std;
+
+EquiTri::EquiTri()
+{
+  length = 0;
+}
+
+EquiTri::EquiTri(const EquiTri & T)
+{
+  length = T.length;
+}
+
+EquiTri::EquiTri(float L)
+{
+  length = L;
+}
+
+EquiTri::~EquiTri()
+{
+}
+
+EquiTri & EquiTri::operator = (const EquiTri & T)
+{
+  if (this == &T)
+    {
+      return * this;
+    }
+
+  length = T.length;
+
+  return * this;
+
+}
+
+string EquiTri::GetType () const
+{
+  return "EquiTri";
+}
+
+float EquiTri::GetArea () const
+{
+  return ((sqrt(3.0)/4.0) * (length * length));
+}
+
+float EquiTri::GetPerimeter () const
+{
+  return length * 3;
+}
+
+bool EquiTri::operator == (const EquiTri & T) const
+{
+  if (length == T.length)
+    {
+      return true;
+    }
+
+  return false;
+}
+
+bool EquiTri::operator < (const EquiTri & T) const
+{
+  if (length < T.length)
+    {
+      return true;
+    }
+  
+  return false;
+}
+
+ostream & operator << (ostream & outs, const EquiTri & T)
+{
+  cout << "The area of your EquiTri is: " << T.GetArea() << "; its perimeter is: " << T.GetPerimeter() << '.' << endl;
+  return outs;
+}
+
+
+  

@@ -1,0 +1,34 @@
+          ADDI X0, X31, #8541
+          ADDI X1, X31, #2874
+MULT:     ADDI X9, X31, #1
+          CBZ X0 DONE
+          CBZ X1 DONE
+          SUBS X31, X1, X9
+          B.EQ DONE2
+          SUBS X31, X0, X9
+          B.EQ DONE3
+          SUBI SP, SP, #24
+          STUR LR, [SP, #0]
+          STUR X0, [SP, #8]
+          STUR X1, [SP, #16]
+          LSR X0, X0, #1
+          BL   MULT
+          LDUR X1, [SP, #16]
+          LDUR X0, [SP, #8]
+          LDUR LR, [SP, #0]
+          ADDI SP, SP, #24
+          ANDI X10, X0, #1
+          SUBIS X31, X10, #1
+          B.EQ ODD
+          B EVEN
+DONE:     ADDI X2, X31, #0
+          BR LR
+DONE2:    ADD X2, X31, X0
+          BR LR
+DONE3:    ADD X2, X31, X1
+          BR LR
+ODD:      LSL X2, X2, #1
+          ADD X2, X2, X1
+          BR LR
+EVEN:     LSL X2, X2, #1
+          BR LR

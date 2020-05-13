@@ -1,0 +1,19 @@
+     ADDI X0, XZR, #18
+FIB: CBZ X0, DONE
+     SUBI X10, X0, #1
+     CBZ X10, DONE
+     SUBI SP, SP, #32
+     STUR X0, [SP, #0]
+     STUR LR, [SP, #8]
+     STUR X19, [SP, #16]
+     SUBI X0, X0, #1
+     BL FIB
+     ADDI X19, X0, #0
+     LDUR X0, [SP, #0]
+     SUBI X0, X0, #2
+     BL FIB
+     ADD X0, X0, X19
+     LDUR LR, [SP, #8]
+     LDUR X19, [SP, #16]
+     ADDI SP, SP, #32
+DONE: BR LR

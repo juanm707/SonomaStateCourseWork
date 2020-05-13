@@ -1,0 +1,6 @@
+s/Coordinate Point/WordData/g
+s/CoordinatePoint/WordData/g
+s/CoordPt/WordData/g
+s/point/word/g
+s/Point/Word/g
+s/PV/WDV/g

@@ -1,0 +1,13 @@
+          ADDI X0, X31, #127
+          SUBI X1, X31, #1
+          ADDI X2, X31, #127
+          SUBI X3, X31, #1
+BIGADD:   ADDS X4, X0, X2
+          B.VS FLOW
+          ADDS X5, X1, X3
+          B.VS CARRY
+          B EXIT
+FLOW:     ADDI X7, X31, #1
+          BR LR
+CARRY:    ADDI X4, X4, #1
+EXIT:     ADDI X31, X31, #0

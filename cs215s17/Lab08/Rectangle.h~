@@ -1,0 +1,12 @@
+#ifndef RECTANGLE_H
+#define RECTANGLE_H
+
+#include <iostream>
+#include "Shape.h"
+using namespace std;
+
+class Rectangle : public Shape
+{
+ public:
+  Rectangle();
+  Rectangle(float L1, float

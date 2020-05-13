@@ -1,0 +1,43 @@
+#include <iostream>
+#include "LList2.hpp"
+
+using namespace std;
+
+int main()
+{
+
+  LList2 <int> L;
+  L.InsertFirst(1);
+  L.InsertLast(2);
+  L.InsertLast(3);
+  L.InsertLast(4);
+  L.InsertLast(5);
+  L.InsertFirst(0);
+ 
+  cout << L << endl;
+
+  L.DeleteFirst();
+  cout << "Deleting first" << endl;
+
+  cout << L << endl;
+
+  L.DeleteLast();
+  cout << "Deleting last" << endl;
+
+  cout << L << endl;
+
+  L.Forward (PrintValue);
+
+  cout << L << endl;
+
+  cout << "Backwards" << endl;
+
+  L.Backward (PrintValue);
+  L.SetDirection(BACKWARD);
+  cout << L << endl;
+
+
+
+  
+  return 0;
+}

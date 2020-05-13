@@ -1,0 +1,24 @@
+      ADDI X0, X31, #10010
+      ADDI X1, X31, #637
+GCD:  SUB X9, X0, X1
+      CBZ X9 DONE
+      CBZ X1 DONE
+      SUBI SP, SP, #16
+      STUR X1, [SP, #0]
+      STUR X0, [SP, #8]
+      BL MOD
+      LDUR X1, [SP, #0]
+      LDUR X0, [SP, #8]
+      ADDI SP, SP, #16
+      ADD X0, X1, X31
+      ADD X1, X2, X31
+      BL GCD
+DONE: LSL X2, X0, #0
+      B EXIT1
+MOD:  SUBS X31, X0, X1
+      B.LT EXIT
+      SUB X0, X0, X1
+      B MOD
+EXIT: ADD X2, X0, X31
+      BR LR
+EXIT1: ADD X31, X31, X31

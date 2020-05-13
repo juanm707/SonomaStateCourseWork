@@ -1,0 +1,12 @@
+size = 20 * 10 - 81
+a = 5
+print a
+b = 6
+print b
+
+for (i = 0
+    ; i < 10;
+    i = i + 1
+    ) {
+   print i
+   }

@@ -1,0 +1,16 @@
+          ADDI X0, X31, #10
+FACT:     ADDI X9, X31, #1
+          SUBS X31, X0, X9
+          B.LE DONE
+          SUBI SP, SP, #16
+          STUR LR, [SP, #0]
+          STUR X0, [SP, #8]
+          SUBI X0, X0, #1
+          BL   FACT
+          LDUR X0, [SP, #8]
+          LDUR LR, [SP, #0]
+          ADDI SP, SP, #16
+          MUL X1, X0, X1
+          BR LR
+DONE:     ADDI X1, X31, #1
+          BR LR

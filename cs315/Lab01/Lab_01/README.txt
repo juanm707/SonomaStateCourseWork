@@ -1,0 +1,34 @@
+/////////////////////////////
+Author:     Juan Martinez  //
+Term:       Fall 2017      //
+Course:     CS 315         //          ____  _____    _    ____      __  __ _____
+Assignment: Lab 01         //         |  _ \| ____|  / \  |  _ \    |  \/  | ____|
+Date:       9/11/17        //         | |_) |  _|   / _ \ | | | |   | |\/  |  _|
+Professor:  Dr. Kooshesh   //         |  _ <| |___ / ___ \| |_| |   | |  | | |___
+/////////////////////////////         |_| \_\_____/_/   \_\____/    |_|  |_|_____|
+
+**********IMPORTANT**********IMPORTANT**********IMPORTANT**************IMPORTANT***********IMPORTANT***********IMPORTANT************IMPORTANT*********
+																	             *
+MUST "cp ~cs315/InvertedList.o" first before using "make -f makefileForPartD". ( I WILL INCLUDE IT IN THE TAR FILE TO MAKE SURE )		     *
+																                     *
+The command is in makefileForPartD file but it does not work, so you must do it seperately! (MIGHT HAVE TO INCLUDE InvertedList.hpp aswell but maybe *
+    	       	  		   	       	    	      	     	     		    	   	   	   		     	       	     *
+After copying file, free to use "make -f makefileForPartD run".											     *
+																     		     *
+HOWEVER, if you use "make -f makefileForPartD clean" then you must copy "cp ~cs315/InvertedList.o" again!			     		     *
+																     		     *	    
+******************************************************************************************************************************************************
+
+FEATURES THAT WORK: All set operations work (add, delete, union, intersection, difference, complement, etc).
+Does not add the max element, creates enough space for the set to store its members. Shifts bits into the
+right place. Allocates and deallocates memory.
+
+FEATURES THAT DO NOT WORK: I am not sure in LargerSetPartD.cpp, that if we need to delete the newSet we create
+to store the result of certain operations. Everytime I delete newSet, I would usually get an error about memory
+issues. I have commented //delete newSet where it may occur in union, intersection, difference, and complement.
+It works without deleting.
+
+POSSIBLE BUGS: Along with issue I said up there ^, copy constructor works(LargerSetPartD * copyL = originalSetL;), but I am not sure how to use it
+using the "this" pointer in the union, intersection, difference, complement functions. As a result, to update the this data members, I had to use
+the -> operatos. I am not sure if we even had to use copy constructor in these functions, but I knew we had to implement it. Also unsure if we
+had to delete original set in copy constructor, and then set "set = other.set".

@@ -1,0 +1,4 @@
+One idea I had was to be able to spawn cells
+in a certain area and try to eliminate any cell
+that is not yours. Also, spawn enemy cells that kill
+the live ones given a certain case.

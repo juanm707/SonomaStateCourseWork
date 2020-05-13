@@ -1,0 +1,11 @@
+// File: resources.rc
+// Author: 
+// Project: CS215 Project 3 Spring 2017
+// Description of file contents:
+
+BACKGROUND_BMP BITMAP	Background.bmp
+
+EMPTY_BMP	BITMAP	Empty.bmp
+PERSON_BMP	BITMAP	Waldo.bmp
+
+

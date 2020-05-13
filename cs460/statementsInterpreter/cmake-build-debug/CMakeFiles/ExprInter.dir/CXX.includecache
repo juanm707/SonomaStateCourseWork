@@ -1,0 +1,58 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/jmartinez's home/cs460/statementsInterpreter/ArithExpr.cpp
+iostream
+-
+ArithExpr.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/ArithExpr.hpp
+TypeDescriptor.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/TypeDescriptor.hpp
+Statements.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Statements.hpp
+
+/Volumes/jmartinez's home/cs460/statementsInterpreter/ArithExpr.hpp
+Token.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Token.hpp
+SymTab.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/SymTab.hpp
+
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Range.hpp
+ArithExpr.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/ArithExpr.hpp
+
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Statements.hpp
+iostream
+-
+vector
+-
+ArithExpr.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/ArithExpr.hpp
+SymTab.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/SymTab.hpp
+Range.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Range.hpp
+
+/Volumes/jmartinez's home/cs460/statementsInterpreter/SymTab.hpp
+string
+-
+map
+-
+TypeDescriptor.hpp
+/Volumes/jmartinez's home/cs460/statementsInterpreter/TypeDescriptor.hpp
+
+/Volumes/jmartinez's home/cs460/statementsInterpreter/Token.hpp
+string
+-
+
+/Volumes/jmartinez's home/cs460/statementsInterpreter/TypeDescriptor.hpp
+string
+-
+vector
+-
+

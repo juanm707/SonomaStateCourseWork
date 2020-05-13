@@ -1,0 +1,2 @@
+chmod 711 vehicles
+chmod 766 vehicles/public*

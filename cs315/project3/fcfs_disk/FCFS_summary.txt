@@ -1,0 +1,4 @@
+SUMMARY REPORT
+Name      TimeInSystem                       WaitTime                                ServiceTime                             
+         Min         Max         Avg         Min         Max         Avg         Min         Max         Avg
+FCFS     239.40   2397.20   1275.77          0.00   2394.20   1154.79             3.00    271.00    120.98

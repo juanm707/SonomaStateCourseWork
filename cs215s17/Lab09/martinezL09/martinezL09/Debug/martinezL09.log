@@ -1,0 +1,11 @@
+﻿  CLab09Win.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  CLab09App.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  CGraphicsShape.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  CGraphicsDesign.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  Generating Code...
+  martinezL09.vcxproj -> C:\Users\student\Desktop\martinezL09\Debug\martinezL09.exe
+  martinezL09.vcxproj -> C:\Users\student\Desktop\martinezL09\Debug\martinezL09.pdb (Full PDB)

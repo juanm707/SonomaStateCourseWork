@@ -1,0 +1,571 @@
+// Assignment : Lab 13
+// File : martinezL13.hpp
+// Author : Juan Martinez
+// Date : Spring 2017
+// Description : This hpp file is for a doubly linked list, with exception handling
+// and indexing/iterating.
+
+#ifndef LLIST2_HPP
+#define LLIST2_HPP
+
+#include <iostream>
+#include <cstdlib>
+
+using namespace std;
+
+enum dtype { FORWARD, BACKWARD };
+
+template <class LT> class LList2;
+template <class LT> ostream & operator << (ostream & outs, const LList2<LT> & L);
+
+template <class LT>
+
+class LList2
+{
+   private:
+      struct LNode
+      {
+         LNode ();
+         LT data;
+         LNode * next;
+	 LNode * prev;
+      };
+  
+   public:
+  class Iterator
+  {
+  public:
+
+    Iterator ();
+    Iterator (LNode * NP);
+    //const LT operator * () const;
+    Iterator operator ++ ();
+    LT & operator * () const;
+    Iterator operator ++ (int);
+    Iterator operator -- ();
+    Iterator operator -- (int);
+    bool operator == (const Iterator & other) const;
+    bool operator != (const Iterator & other) const;
+  private:
+    LNode * current;
+  };
+  
+      LList2 ();
+      LList2 (const LList2 & other);
+      ~LList2 ();
+      LList2 & operator = (const LList2 & other);
+      bool operator == (const LList2 & other);
+      int Size () const;
+
+  void SetDirection (dtype dir);
+  dtype GetDirection () const;
+  friend ostream & operator << <> (ostream & outs, const LList2<LT> & L);
+  
+      bool InsertFirst (const LT & value);
+      bool InsertLast (const LT & value);
+      bool DeleteFirst ();
+      bool DeleteLast ();
+
+  void Forward (void function (const LT & param));
+  void Backward (void function (const LT & param));
+
+  void PrintValue (const int & value);
+
+  Iterator begin () const;
+  Iterator rbegin () const;
+  Iterator end () const;
+  Iterator rend () const;
+
+  LT & operator [] (const int & index) const;
+  //LT & operator * () const;
+  
+   private:
+      LNode * first;
+      LNode * last;
+      int size;
+      dtype direction;
+      
+};
+
+//#include LList2.h
+
+template <class LT>
+LList2<LT>::LNode::LNode ()
+{ // This function will set value of next to NULL.
+ 
+  next = NULL;
+  prev = NULL;
+}
+
+template <class LT>
+LList2<LT>::LList2 ()
+{ // This function will set value of size to 0 and value of first to NULL.
+  first = NULL;
+  last = NULL;
+  size = 0;
+  direction = FORWARD;
+}
+
+template <class LT>
+LList2<LT>::LList2 (const LList2 & other)
+{ // This function is the copy constructor and set value of size to 0, first to NULL and copy data of a list into another list.
+  size = 0;
+  first = NULL;
+  
+  /*LNode* np = other.first;
+  
+  while(np != NULL)
+    {
+      InsertLast(np->data);
+      np = np->next;
+      }*/
+  
+  for (LNode * n = other.first; n != NULL; n = n->next)
+    {
+      InsertLast (n->data);
+    }
+  direction = other.direction;
+  
+}
+
+template <class LT>
+LList2<LT>::~LList2 ()
+{ // This function will delete the first item in the list
+
+  while (first)
+    {
+      DeleteFirst();
+    }
+}
+
+template <class LT>
+LList2<LT> & LList2<LT>::operator = (const LList2<LT> & other)
+{ // This function will check for self assignment.
+  if (this == &other)
+    {
+      return * this;
+    }
+
+  while (first)
+    {
+      DeleteFirst();
+    }
+  for (LNode* n = other.first; n != NULL; n = n->next)
+    {
+      InsertLast(n->data);
+    }
+  direction = other.direction;
+  return * this;
+}
+
+template <class LT>
+bool LList2<LT>::operator == (const LList2 & other)
+{ // This function will check for equality between two lists.
+  if (size != other.size)
+    {
+      return false;
+    }
+  
+  int i = 0;
+
+  LNode* np = first;
+  LNode* op = other.first;
+  
+  while (i < size)
+    {
+      if (np->data != op->data)
+	{
+	  return false;
+	}
+
+      np = np->next;
+      op = op->next;
+
+      i++;
+    }
+
+  return true;
+  
+}
+
+template <class LT>
+int LList2<LT>::Size () const
+{ // This function will return the value of size.
+  return size;
+}
+
+template <class LT>
+void LList2<LT>::SetDirection (dtype dir)
+{
+  direction = dir;
+}
+
+template <class LT>
+dtype LList2<LT>::GetDirection () const
+{
+  return direction;
+}
+
+template <class LT>
+ostream & operator << (ostream & outs, const LList2<LT> & L)
+{ // This function will traverse the list, output the data values, and return outs.
+
+  if (L.first == NULL)
+    return outs;
+  
+  if (L.direction == FORWARD)
+    {//Print the list from beginning (first) to end
+      outs << L.first->data;
+
+      typename LList2<LT>::LNode* n;
+      for (n = L.first->next; n != NULL; n = n->next)
+	outs << ' ' << n->data;
+    }
+  
+  else //L.direction == BACKWARD
+    {//Print the list from end to beginning
+      outs << L.last->data;
+
+      typename LList2<LT>::LNode* n;
+      for (n = L.last->prev; n != NULL; n = n->prev)
+	outs << ' ' << n->data;
+    }
+
+  return outs;
+  
+}
+
+template <class LT>
+bool LList2<LT>::InsertFirst (const LT & value)
+{ // This function will allocate space for a new node. False if space cannot be allocated.
+  // Set data of the new node to the input value, set the next of the new node to the current first.
+  // Set the first of the list to the new node. Increment the size of the list, and return true.
+
+  LNode* nw = new LNode;
+
+  if (nw == NULL)
+    {
+      return false;
+    }
+
+  if (size == 0)
+    {
+      nw->data = value;
+      nw->next = NULL;
+      nw->prev = NULL;
+      first = nw;
+      last = nw;
+      size++;
+      return true;
+    }
+  if (size >= 1)
+    {
+      nw->data = value;
+      nw->next = first;
+      nw->prev = NULL;
+      first->prev = nw;
+      
+      first = nw;
+      size++;
+      return true;
+    }
+  
+}
+
+template <class LT>
+bool LList2<LT>::InsertLast (const LT & value)
+{ // This function will insert a value at the end of list.
+
+  if (size == 0)
+    {
+      return InsertFirst(value);
+    }
+  
+  LNode* nw = new LNode;
+  
+  if (nw == NULL)
+    {
+      return false;
+    }
+
+  if (size == 1)
+    {
+      nw->data = value;
+      nw->next = NULL;
+      nw->prev = last;
+      //first stays same
+      last->next = nw;
+      last = nw;
+      size++;
+      return true;
+    }
+  
+  nw->data = value;
+  nw->next = NULL;
+  nw->prev = last;
+  
+  last->next = nw;
+  last = nw;
+  size++;
+  
+  return true;
+  
+}
+
+template <class LT>
+bool LList2<LT>::DeleteFirst ()
+{ // This function will delete the first value.
+
+  if (size == 0)
+    {
+      return false;
+    }
+
+  
+  if (size == 1)
+    {
+      LNode* temp = first;
+      first = NULL;
+      last = NULL;
+      delete temp;
+      size--;
+      return true;
+    }
+
+  LNode* temp = first;
+  first = first->next;
+  first->prev = NULL;
+  
+  delete temp;
+  size--;
+  
+  
+  return true;
+  
+}
+
+template <class LT>
+bool LList2<LT>::DeleteLast ()
+{ // This function will delete the last value.
+
+  if (size == 0)
+    {
+      return false;
+    }
+
+  if (size == 1)
+    {
+      return DeleteFirst();
+    }
+
+  LNode* temp = last;
+  
+  last = last->prev;
+  last->next = NULL;
+  temp->prev = NULL;
+  
+  delete temp;
+  size--;
+  return true;
+  
+}
+
+template <class LT>
+void LList2<LT>::Forward (void function (const LT & param))
+{
+  for (LNode* n = first; n; n = n->next)
+    function (n->data);
+
+}
+
+
+template <class LT>
+void LList2<LT>::Backward (void function (const LT & param))
+{
+  for (LNode * n = last; n; n = n->prev)
+    function (n->data);
+}
+
+void PrintValue (const int & value)
+{
+  cout << "The value in the list is " << value << endl;
+}
+
+template <class LT>
+LList2<LT>::Iterator::Iterator ()
+{
+  current = NULL;
+}
+
+template <class LT>
+LList2<LT>::Iterator::Iterator (LNode * NP)
+{
+  current = NP;
+}
+
+/*template <class LT>
+const LT LList2<LT>::Iterator::operator * () const
+{
+  return current->data;
+  }*/
+
+template <class LT>
+typename LList2<LT>::Iterator LList2<LT>::Iterator::operator ++ ()
+{
+  try
+    {
+      if (current == NULL)
+	throw("Cannot post-increment a NULL pointer");
+    }
+  // current = current->next;
+
+  catch (const char * msg)
+    {
+      cout << msg << endl;
+      exit(4);
+    }
+  
+  current = current->next;
+  
+  return *this;
+}
+
+template <class LT>
+typename LList2<LT>::Iterator LList2<LT>::Iterator::operator ++ (int)
+{
+  Iterator temp = *this;
+  try
+    {
+      if (current == NULL)
+	throw("Cannot post-increment a NULL pointer");
+    }
+  
+  catch (const char * msg)
+    {
+      cout << msg << endl;
+      exit(5);
+    }
+  
+  current = current->next;
+  return temp;
+}
+
+template <class LT>
+typename LList2<LT>::Iterator LList2<LT>::Iterator::operator -- ()
+{
+  current = current->prev;
+  return *this;
+}
+
+template <class LT>
+typename LList2<LT>::Iterator LList2<LT>::Iterator::operator -- (int)
+{
+  Iterator temp = *this;
+  current = current->prev;
+  return temp;
+}
+
+template <class LT>
+bool LList2<LT>::Iterator::operator == (const Iterator & other) const
+{
+  return current == other.current;
+}
+
+template <class LT>
+bool LList2<LT>::Iterator::operator != (const Iterator & other) const
+{
+  return current != other.current;
+}
+
+template <class LT>
+typename LList2<LT>::Iterator LList2<LT>::begin () const
+{
+  Iterator temp (first);
+  return temp;
+}
+
+template <class LT>
+typename LList2<LT>::Iterator LList2<LT>::rbegin () const
+{
+  Iterator temp (last);
+  return temp;
+}
+
+template <class LT>
+typename LList2<LT>::Iterator LList2<LT>::end () const
+{
+  Iterator temp;
+  return temp;
+}
+
+template <class LT>
+typename LList2<LT>::Iterator LList2<LT>::rend () const
+{
+  Iterator temp;
+  return temp;
+}
+
+template <class LT>
+LT & LList2<LT>::operator [] (const int & index) const
+{
+  try
+    {
+      if (size == 0)
+	throw("You are indexing an empty list.");
+      if (index >= size)
+	throw("Subscript out of bounds : index is too large");
+      if (index < 0)
+	throw index;
+    }
+  
+	  
+  //LList2<LT>::LNode * n = first;
+
+  //for (int i = 0; i < index; i++)
+    //{
+      // n = n->next;
+      //  }
+  
+  catch (const char * msg)
+    {
+      cerr << msg << endl;
+      exit(2);
+    }
+  catch (const int idx)
+    {
+      cerr << idx << "Not a valid index\n";
+      exit(3);
+    }
+
+  LList2<LT>::LNode * n = first;
+
+  for (int i = 0; i < index; i++)
+    {
+      n = n->next;
+    }
+  
+  
+  return n->data;
+}
+
+template <class LT>
+LT & LList2<LT>::Iterator::operator * () const
+{
+  try
+    {
+      if (current == NULL)
+	{
+	  throw("Cannot dereference a NULL pointer");
+	}
+      return current->data;
+    }
+  catch (const char * message)
+    {
+      cerr << message << endl;
+      exit(1);
+    }
+}
+
+
+#endif
+

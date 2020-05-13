@@ -1,0 +1,8 @@
+Whether you want to uncover the secrets of the universe, or you want to pursue
+a career in the 21st century, computer programming is an essential skill to
+learn.
+- Stephen Hawking
+
+The best programs are written so that computing machines can perform them
+quickly and so that human beings can understand them clearly.
+- Donald Ervin Knuth

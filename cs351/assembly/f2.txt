@@ -1,0 +1,13 @@
+     ADDI X0, XZR, #255
+     SUBI X1, X31, #0
+F2:  CBZ X0, EXIT
+     ADDI X9, X31, #1
+     ADDI X10, X0, #0
+     AND X9, X9, X10
+     CBNZ X9, ODD
+     LSR X0, X0, #1
+     B F2
+ODD: LSR X0, X0, #1
+     ADDI X1, X1, #1
+     B F2
+EXIT: 

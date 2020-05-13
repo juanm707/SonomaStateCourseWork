@@ -1,0 +1,17 @@
+// File: resources.rc
+// Author: Juan Martinez
+// Project: CS215 Project 3 Spring 2017
+// Description of file contents:
+
+BACKGROUND_BMP BITMAP	Background.bmp
+
+EMPTY_BMP	BITMAP	Empty.bmp
+PERSON_BMP	BITMAP	Waldo.bmp
+ADDINGA_BMP 	BITMAP	zombiebirth.bmp
+ADDINGB_BMP	BITMAP	humanbirth.bmp
+HUMAN_BMP	BITMAP 	humancell.bmp
+DELETING_BMP	BITMAP	death.bmp
+RAYGUN_BMP	BITMAP	raygun.bmp
+
+
+

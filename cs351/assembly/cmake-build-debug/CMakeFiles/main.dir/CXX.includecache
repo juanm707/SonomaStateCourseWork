@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/jmartinez's home/cs351/assembly/Instruction.h
+vector
+-
+string
+-
+
+/Volumes/jmartinez's home/cs351/assembly/main.cpp
+iostream
+-
+fstream
+-
+sstream
+-
+map
+-
+algorithm
+-
+Instruction.h
+/Volumes/jmartinez's home/cs351/assembly/Instruction.h
+

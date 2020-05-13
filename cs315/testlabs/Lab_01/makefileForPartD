@@ -1,0 +1,18 @@
+largerSetPartD.x: LargerSetPartD.o LargerSetPartD_main.o lab01b_printBits_2.o InvertedList.o
+	cp ~cs315/InvertedList.o .
+	g++ -std=c++11 -ggdb LargerSetPartD.o LargerSetPartD_main.o lab01b_printBits_2.o InvertedList.o -o largerSetPartD.x
+
+LargerSetPartD.o: LargerSetPartD.cpp  LargerSetPartD.hpp
+	g++ -std=c++11 -ggdb -c -o LargerSetPartD.o LargerSetPartD.cpp
+
+LargerSetPartD_main.o: LargerSetPartD_main.cpp LargerSetPartD.hpp InvertedList.hpp
+	g++ -std=c++11 -ggdb -c -o LargerSetPartD_main.o LargerSetPartD_main.cpp
+
+lab01b_printBits_2.o: lab01b_printBits_2.hpp lab01b_printBits_2.cpp
+	g++ -std=c++11 -ggdb -c -o lab01b_printBits_2.o lab01b_printBits_2.cpp
+
+run: largerSetPartD.x
+	./largerSetPartD.x
+
+clean:
+	rm -f *.o *~ *.x

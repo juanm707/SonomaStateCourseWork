@@ -1,0 +1,291 @@
+// Assignment : Project 1
+// File : martinezp1.cpp
+// Author : Juan Martinez
+// Description : This program will read a set of strings
+// from a file and store them in an array. It will then
+// print the strings, information about the strings and a
+// sorted list of the strings.
+
+#include <iostream>
+#include <fstream>
+#include <iomanip>
+#include "similarity.hpp"
+#include "vector"
+
+using namespace std;
+
+int const MAXSTRINGS = 1000;
+int const PERLINE = 7;
+
+int GetStrings (string S []);
+void PrintStrings (string S [], int C);
+void PrintShortest (string S [], int C);
+void PrintLongest (string S [], int C);
+void GreatestSimilarity (string S [], int C);
+void LeastSimilarity (string S [], int C);
+void AscendingSequence (string S [], int C);
+void DescendingSequence (string S [], int C);
+void Sort (string S [], int C);
+void Swap (string & a, string & b);
+
+int main ()
+{
+        // Maximum number of words to store.
+	string strings [MAXSTRINGS];
+
+	// Read into array and get number of strings.
+	int numstrings = GetStrings(strings);
+
+	// Print the unsorted strings.
+	cout << setw(12) << left << "The Strings:" << endl;
+	PrintStrings(strings, numstrings);
+
+	// Print the shortest string.
+	PrintShortest(strings, numstrings);
+
+	// Print the longest string.
+	PrintLongest(strings, numstrings);
+
+	// Print least similarity.
+	LeastSimilarity(strings, numstrings);
+
+	// Print greatest similarity.
+	GreatestSimilarity(strings, numstrings);
+
+	// Print longest ascending sequence of strings.
+	AscendingSequence(strings, numstrings);
+	cout << endl;
+	
+	// Print longest descending sequence of strings.
+	DescendingSequence(strings, numstrings);
+	cout << endl;
+
+	// Sort the strings.
+	Sort(strings, numstrings);
+
+	// Print the sorted strings.
+	cout << setw(12) << left << "Sorted Strings:" << endl;
+	PrintStrings(strings, numstrings);
+	
+	return 0;
+}
+
+int GetStrings (string S [])
+{
+  // Open the file.
+  ifstream input ("strings.txt");
+  
+  // Read into array and count the number of words.
+  int count = 0;
+  while (input >> S[count])
+    {
+      count++;
+    }
+
+  return count;  
+}
+
+void PrintStrings (string S [], int C)
+{ 
+  for (int i = 0; i < C;)
+    {
+      for ( int j = 0; j < PERLINE; j++)
+	{
+	  cout << setw(12) << left << S[i];
+	  i++;
+	}
+      cout << endl;	
+    }
+  cout << endl;
+}
+
+void PrintLongest (string S [], int C)
+{
+  string longest = S[0];
+  int i = 0;
+
+  while (i < C)
+    {
+      if (S[i].length() > longest.length())
+	{
+	  longest = S[i];
+	}
+      i++;
+    }
+  cout << setw(12) << left << "Longest String: " << longest << endl;
+  cout << endl;
+}
+
+void PrintShortest (string S [], int C)
+{
+  string shortest = S[0];
+  int i = 0;
+
+  while (i < C)
+    {
+      if (S[i].length() < shortest.length())
+	{
+	  shortest = S[i];
+	}
+      i++;
+    }
+  cout << setw(12) << left << "Shortest String: " << shortest << endl;
+  cout << endl;
+}
+
+void GreatestSimilarity (string S [], int C)
+{
+  float greatest = similarity(S[0], S[1]);
+  string g1 = S[0];
+  string g2 = S[1];
+
+  int i = 0;
+
+  while (i < C)
+    {
+      int j = i + 1;
+      float great = similarity(S[i], S[j]);
+
+      if (great > greatest)
+	{
+	  greatest = great;
+	  g1 = S[i];
+	  g2 = S[j];
+	}
+      i++;
+    }
+  
+  cout << setw(12) << left << "Adjacent Strings with Greatest Similarity: "
+       << g1 << " " << g2 << " (" << fixed << setprecision(1) <<  greatest << "%)" << endl;
+  cout << endl;
+  
+}
+
+void LeastSimilarity (string S [], int C)
+{
+  float least = similarity(S[0], S[1]);
+  string l1 = S[0];
+  string l2 = S[1];
+  
+  int i = 0;
+
+  while (i < C)
+    {
+      int j = i + 1;
+      float less = similarity(S[i], S[j]);
+
+      if (less < least)
+	{
+	  least = less;
+	  l1 = S[i];
+	  l2 = S[j];
+	}
+      i++;
+    }
+
+  cout << setw(12) << left << "Adjacent Strings with Least Similarity: "
+       << l1 << " " << l2 << " (" << fixed << setprecision(1) << least << "%)" << endl;
+  cout << endl;
+	  
+  
+}
+
+void AscendingSequence (string S [], int C)
+{
+  cout << setw(12) << left << "Ascending Sequence: " << endl;
+  
+  vector<string> longest;
+  vector<string> temp;
+  
+  for (int i = 1; i < C; i++)
+    {
+      if (S[i] > S[i-1])
+	{
+	  temp.push_back(S[i-1]);
+	}
+     
+      else
+	{
+	  temp.push_back(S[i-1]);
+	  
+	  if (temp.size() > longest.size())
+	    {
+	      longest = temp;
+	    }
+		  temp.clear();
+	}
+      
+    }
+  for (int i = 0; i < longest.size(); i++)
+    {
+      cout << setw(12) << longest[i];
+      if ( i % 7 == 6)
+	{
+	  cout << endl;
+	}
+    }
+  cout << endl;
+}
+
+
+void DescendingSequence (string S [], int C)
+{
+  cout << setw(12) << left << "Descending Sequence: " << endl;
+  
+  vector<string> longest2;
+  vector<string> temp;
+
+  for (int i = 1; i < C; i++)
+    {
+      if (S[i] < S[i-1])
+	{
+	  temp.push_back(S[i-1]);
+	}
+
+      else
+	{
+	  temp.push_back(S[i-1]);
+
+	  if (temp.size() > longest2.size())
+	    {
+	      longest2 = temp;
+	    }
+	  temp.clear();
+	}
+
+    }
+  for (int i = 0; i < longest2.size(); i++)
+    {
+      cout << setw(12) << longest2[i];
+      if ( i % 7 == 6)
+	{
+	  cout << endl;
+	}
+      
+    }
+  cout << endl;
+}
+
+void Sort (string S [], int C)
+{
+  int i = 1;
+  while (i < C)
+    {
+      int j = i;
+      while (j > 0 && S[j] < S[j-1])
+	{
+	  Swap (S[j], S[j-1]);
+	  j--;
+	}
+      i++;
+    }
+}
+
+void Swap (string & a, string & b)
+{
+  string temp;
+  temp = a;
+  a = b;
+  b = temp;
+  
+}

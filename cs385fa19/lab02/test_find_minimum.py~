@@ -1,0 +1,49 @@
+import unittest
+import random
+
+from find_minimum import find_minimum
+
+class TestFindMinimum(unittest.TestCase):
+
+    def test_find_minimum_with_10_items(self):
+        """
+        Tests that find_minimum correctly returns the minimum from an array with 10 items
+        """
+        numbers = [9, 3, 10, 7, 1, 2, 1, 4]
+        self.assertEqual(find_minimum(numbers), 1)
+
+    def test_find_minimum_with_0_items(self):
+        """
+        Tests that find_minimum correctly returns an empty array since no items are present
+        """
+        # An empty list/array [] in python is False if it is empty.
+        # To check that find_minimum works for an empty list, we
+        # can check if what is returned is an empty list by checking if
+        # it is False. ex bool([]) returns false
+        # self.assertFalse(find_minimum(numbers))
+        
+        numbers = []
+        self.assertFalse(find_minimum(numbers))
+
+    def test_find_minimum_with_1_item(self):
+        """
+        Tests that find_minimum correctly returns the only item in the array since its the only one item
+        """
+        numbers = [1]
+        self.assertEqual(find_minimum(numbers), 1)
+        
+    def test_find_minimum_with_1000_items(self):
+        """
+        Tests that find_minimum correctly returns the minimum from an array with 10 items
+        """
+
+        numbers = []
+        for i in range(1000):
+            x = random.randint(2, 10000) # Random int between 2 and 10000
+            numbers.append(x) # Add random number to array
+
+        numbers[random.randint(0, 999)] = 1 # Since the array doesnt have a 1, which will be our minimum value
+                                            # when set a random index that is in range to be 1.
+        self.assertEqual(find_minimum(numbers), 1)
+        
+        

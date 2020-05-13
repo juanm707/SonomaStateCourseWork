@@ -1,0 +1,109 @@
+initialize_board
+================
+
+01. A newly initialized board shall be a 2D array of size 4 x 4
+02. A newly initialized board shall have two tiles at random positions with assigned values of either 2 or 4
+03. A newly initialized board shall have zeros on empty tiles
+
+
+add_random_tile
+===============
+
+01. The add_random_tile function shall add at most one tile to a board when called and only if there are empty tiles in the board
+02. The add_random_tile function shall only assign values of either 2 or 4 to new tiles
+03. The add_random_tile function shall only place tiles on empty tiles
+
+
+get_empty_tiles
+===============
+
+01. The get_empty_tiles function shall return a list of tile coordiantes for those tiles that are empty on a given board
+02. The get_empty_tiles function shall use coordinates where the first element corresponds to the row, and the second to the column.
+03. The get_empty_tiles function shall use zero-based index when determining the coordinates of the empty tiles.
+
+
+move_up
+=======
+
+01. The move_up function shall move up all the possible tiles that can be moved
+02. The move_up function shall modify the board that is passed
+03. The move_up function shall return a boolean that indicates if tiles were moved (or not)
+04. The move_up function shall merge tiles only if the adjacent tiles have the same value vertically
+
+
+_find_next_position_up
+======================
+
+01. The _find_next_position_up function shall return the position where a tile should be located based on the passed board
+and coordinates after moving up
+02. The _find_next_position_up function shall not consider the merging of two tiles
+03. The _find_next_position_up function shall consider only available spots due to them being empty and within the board boundaries
+
+
+move_down
+=========
+
+01. The move_down function shall move down all the possible tiles that can be moved
+02. The move_down function shall modify the board that is passed
+03. The move_down function shall return a boolean that indicates if tiles were moved (or not)
+04. The move_down function shall merge tiles only if the adjacent tiles have the same value vertically
+
+
+_find_next_position_down
+========================
+
+01. The _find_next_position_down function shall return the position where a tile should be located based on the passed board
+and coordinates after moving down
+02. The _find_next_position_down function shall not consider the merging of two tiles
+03. The _find_next_position_down function shall consider only available spots due to them being empty and within the board boundaries
+
+
+move_left
+=========
+
+01. The move_left function shall move left all the possible tiles that can be moved
+02. The move_left function shall modify the board that is passed
+03. The move_left function shall return a boolean that indicates if tiles were moved (or not)
+04. The move_left function shall merge tiles only if the adjacent tiles have the same value horizontally
+
+
+_find_next_position_left
+========================
+
+01. The _find_next_position_left function shall return the position where a tile should be located based on the passed board
+and coordinates after moving left
+02. The _find_next_position_left function shall not consider the merging of two tiles
+03. The _find_next_position_left function shall consider only available spots due to them being empty and within the board boundaries
+
+
+move_right
+==========
+
+01. The move_right function shall move right all the possible tiles that can be moved
+02. The move_right function shall modify the board that is passed
+03. The move_right function shall return a boolean that indicates if tiles were moved (or not)
+04. The move_right function shall merge tiles only if the adjacent tiles have the same value horizontally
+
+
+_find_next_position_right
+=========================
+
+01. The _find_next_position_right function shall return the position where a tile should be located based on the passed board
+and coordinates after moving right
+02. The _find_next_position_right function shall not consider the merging of two tiles
+03. The _find_next_position_right function shall consider only available spots due to them being empty and within the board boundaries
+
+
+is_game_over
+============
+
+01. The is_game_over function shall return a boolean that indicates the game is over or not based on if any possible merges or open squares
+02. The is_game_over function shall return a boolean that indicates where the game has been won by checking if tile 2048 is in the board
+03. The is_game_over function shall return a score which is the total sum of all the tiles on the board
+
+
+_is_tile_movable
+================
+
+01. The _is_tile_movable function shall determines if a tile can be moved due to the presence of adjacent spaces
+    or neighbors with the same value

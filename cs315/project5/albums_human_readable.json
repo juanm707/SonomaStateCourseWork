@@ -1,0 +1,4106 @@
+[
+    {
+        "album_id": 237541,
+        "num_tracks": 4,
+        "artist_id": 82730,
+        "title": "\"Requests\"",
+        "genres": "Rock:Pop",
+        "year": "1964",
+        "num_images": 4
+    },
+    {
+        "album_id": 5052549,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "1965",
+        "genres": "Rock",
+        "year": "1964",
+        "num_images": 2
+    },
+    {
+        "album_id": 751087,
+        "num_tracks": 4,
+        "artist_id": 82730,
+        "title": "1965",
+        "genres": "Rock",
+        "year": "1964",
+        "num_images": 4
+    },
+    {
+        "album_id": 750386,
+        "num_tracks": 21,
+        "artist_id": 1124645,
+        "title": "1989",
+        "genres": "Pop",
+        "year": "2014",
+        "num_images": 1
+    },
+    {
+        "album_id": 414577,
+        "num_tracks": 55,
+        "artist_id": 971243,
+        "title": "2009 - Les Enfoir\u00e9s Font Leur Cin\u00e9ma",
+        "genres": "Pop",
+        "year": "2009",
+        "num_images": 4
+    },
+    {
+        "album_id": 601497,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "22",
+        "genres": "Pop:Folk, World, & Country",
+        "year": "2013",
+        "num_images": 1
+    },
+    {
+        "album_id": 97269,
+        "num_tracks": 17,
+        "artist_id": 3840,
+        "title": "27 5 94 The Astoria London Live",
+        "genres": "Rock",
+        "year": "1995",
+        "num_images": 3
+    },
+    {
+        "album_id": 3056237,
+        "num_tracks": 1,
+        "artist_id": 1103159,
+        "title": "3-Way (The Golden Rule)",
+        "genres": "Hip Hop:Non-Music",
+        "year": "2011",
+        "num_images": 2
+    },
+    {
+        "album_id": 43651,
+        "num_tracks": 4,
+        "artist_id": 33287,
+        "title": "30 Gallon Tank +3",
+        "genres": "Rock",
+        "year": "1998",
+        "num_images": 2
+    },
+    {
+        "album_id": 242111,
+        "num_tracks": 3,
+        "artist_id": 97334,
+        "title": "303 Sonar",
+        "genres": "Electronic",
+        "year": "1995",
+        "num_images": 1
+    },
+    {
+        "album_id": 1395729,
+        "num_tracks": 6,
+        "artist_id": 3840,
+        "title": "6 Programs Tied",
+        "genres": "Rock",
+        "year": "1995",
+        "num_images": 2
+    },
+    {
+        "album_id": 3330238,
+        "num_tracks": 6,
+        "artist_id": 137880,
+        "title": "6 Track Sampler",
+        "genres": "Hip Hop",
+        "year": "2007",
+        "num_images": 2
+    },
+    {
+        "album_id": 73571,
+        "num_tracks": 7,
+        "artist_id": 3840,
+        "title": "7 Television Commercials",
+        "genres": "Electronic:Rock",
+        "year": "1998",
+        "num_images": 1
+    },
+    {
+        "album_id": 20320,
+        "num_tracks": 15,
+        "artist_id": 321128,
+        "title": "A Girl Like Me",
+        "genres": "Electronic:Hip Hop:Reggae:Pop",
+        "year": "2006",
+        "num_images": 16
+    },
+    {
+        "album_id": 646493,
+        "num_tracks": 5,
+        "artist_id": 321128,
+        "title": "A Girl Like Me (Album Sampler)",
+        "genres": "Reggae:Pop",
+        "year": "2006",
+        "num_images": 3
+    },
+    {
+        "album_id": 4326470,
+        "num_tracks": 1,
+        "artist_id": 82730,
+        "title": "A Happy Crimble And A Very New Year",
+        "genres": "Rock:Non-Music",
+        "year": "1964",
+        "num_images": 1
+    },
+    {
+        "album_id": 2288740,
+        "num_tracks": 4,
+        "artist_id": 82730,
+        "title": "A Hard Day's Night",
+        "genres": "Pop",
+        "year": "1964",
+        "num_images": 3
+    },
+    {
+        "album_id": 762632,
+        "num_tracks": 4,
+        "artist_id": 82730,
+        "title": "A Hard Day's Night",
+        "genres": "Rock",
+        "year": "1964",
+        "num_images": 1
+    },
+    {
+        "album_id": 446687,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "A Hard Day's Night",
+        "genres": "Rock",
+        "year": "1964",
+        "num_images": 4
+    },
+    {
+        "album_id": 34153,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "A Hard Day's Night",
+        "genres": "Rock:Pop",
+        "year": "1964",
+        "num_images": 4
+    },
+    {
+        "album_id": 24003,
+        "num_tracks": 15,
+        "artist_id": 82730,
+        "title": "A Hard Day's Night",
+        "genres": "Rock:Stage & Screen",
+        "year": "1964",
+        "num_images": 6
+    },
+    {
+        "album_id": 507400,
+        "num_tracks": 12,
+        "artist_id": 82730,
+        "title": "A Hard Day's Night",
+        "genres": "Rock:Stage & Screen",
+        "year": "1964",
+        "num_images": 4
+    },
+    {
+        "album_id": 4564830,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "A Hard Day's Night / Roll Over Beethoven",
+        "genres": "Rock:Pop:Stage & Screen",
+        "year": "1964",
+        "num_images": 2
+    },
+    {
+        "album_id": 43625,
+        "num_tracks": 14,
+        "artist_id": 33287,
+        "title": "A Series Of Sneaks",
+        "genres": "Rock",
+        "year": "1998",
+        "num_images": 1
+    },
+    {
+        "album_id": 1923802,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "A Taste Of Honey / I'll Cry Instead",
+        "genres": "Pop:Rock",
+        "year": "1964",
+        "num_images": 3
+    },
+    {
+        "album_id": 418510,
+        "num_tracks": 4,
+        "artist_id": 1103159,
+        "title": "A Very Gaga Holiday",
+        "genres": "Pop",
+        "year": "2011",
+        "num_images": 1
+    },
+    {
+        "album_id": 4127766,
+        "num_tracks": 46,
+        "artist_id": 971243,
+        "title": "Absolute Music 60",
+        "genres": "Electronic:Hip Hop:Rock:Pop",
+        "year": "2009",
+        "num_images": 12
+    },
+    {
+        "album_id": 585334,
+        "num_tracks": 2,
+        "artist_id": 137880,
+        "title": "Addiction (The Official House Remix)",
+        "genres": "Electronic:Hip Hop",
+        "year": "2005",
+        "num_images": 6
+    },
+    {
+        "album_id": 6051436,
+        "num_tracks": 4,
+        "artist_id": 82730,
+        "title": "Ain't She Sweet",
+        "genres": "Rock:Pop",
+        "year": "1964",
+        "num_images": 1
+    },
+    {
+        "album_id": 6386387,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "Ain't She Sweet",
+        "genres": "Rock",
+        "year": "1964",
+        "num_images": 3
+    },
+    {
+        "album_id": 6548390,
+        "num_tracks": 4,
+        "artist_id": 82730,
+        "title": "Ain't She Sweet",
+        "genres": "Pop",
+        "year": "1964",
+        "num_images": 0
+    },
+    {
+        "album_id": 490433,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "Ain't She Sweet",
+        "genres": "Rock:Pop",
+        "year": "1964",
+        "num_images": 1
+    },
+    {
+        "album_id": 490434,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "Ain't She Sweet",
+        "genres": "Rock",
+        "year": "1964",
+        "num_images": 3
+    },
+    {
+        "album_id": 435519,
+        "num_tracks": 12,
+        "artist_id": 82730,
+        "title": "Ain't She Sweet",
+        "genres": "Pop:Rock",
+        "year": "1964",
+        "num_images": 1
+    },
+    {
+        "album_id": 81013,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "Ain't She Sweet / Cry For A Shadow",
+        "genres": "Rock",
+        "year": "1964",
+        "num_images": 3
+    },
+    {
+        "album_id": 1056501,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "Ain't She Sweet / Take Out Some Insurance On Me, Baby",
+        "genres": "Pop:Rock",
+        "year": "1964",
+        "num_images": 3
+    },
+    {
+        "album_id": 4412944,
+        "num_tracks": 1,
+        "artist_id": 3840,
+        "title": "Airbag",
+        "genres": "Rock",
+        "year": "1998",
+        "num_images": 1
+    },
+    {
+        "album_id": 326153,
+        "num_tracks": 7,
+        "artist_id": 3840,
+        "title": "Airbag / How Am I Driving?",
+        "genres": "Rock",
+        "year": "1998",
+        "num_images": 16
+    },
+    {
+        "album_id": 256023,
+        "num_tracks": 2,
+        "artist_id": 1103159,
+        "title": "Alejandro",
+        "genres": "Electronic:Pop",
+        "year": "2010",
+        "num_images": 4
+    },
+    {
+        "album_id": 29610,
+        "num_tracks": 14,
+        "artist_id": 971243,
+        "title": "Alfie",
+        "genres": "Rock:Funk / Soul:Stage & Screen",
+        "year": "2004",
+        "num_images": 3
+    },
+    {
+        "album_id": 7004,
+        "num_tracks": 5,
+        "artist_id": 137880,
+        "title": "All Falls Down",
+        "genres": "Hip Hop",
+        "year": "2004",
+        "num_images": 1
+    },
+    {
+        "album_id": 43619,
+        "num_tracks": 3,
+        "artist_id": 33287,
+        "title": "All The Negatives Have Been Destroyed",
+        "genres": "Rock",
+        "year": "1996",
+        "num_images": 2
+    },
+    {
+        "album_id": 1515627,
+        "num_tracks": 29,
+        "artist_id": 971243,
+        "title": "Almighty Anthems - Volume 2",
+        "genres": "Electronic",
+        "year": "2008",
+        "num_images": 1
+    },
+    {
+        "album_id": 1515630,
+        "num_tracks": 9,
+        "artist_id": 971243,
+        "title": "Almighty Anthems - Volume 2: The Almighty 12\" Collection",
+        "genres": "Electronic",
+        "year": "2008",
+        "num_images": 1
+    },
+    {
+        "album_id": 1559369,
+        "num_tracks": 25,
+        "artist_id": 971243,
+        "title": "Almighty Presents Gay Anthems 3",
+        "genres": "Electronic",
+        "year": "2008",
+        "num_images": 1
+    },
+    {
+        "album_id": 8461,
+        "num_tracks": 5,
+        "artist_id": 137880,
+        "title": "American Boy",
+        "genres": "Hip Hop:Pop",
+        "year": "2007",
+        "num_images": 1
+    },
+    {
+        "album_id": 1535935,
+        "num_tracks": 1,
+        "artist_id": 3840,
+        "title": "An Interview With Jonny And Colin Greenwood",
+        "genres": "Non-Music",
+        "year": "2000",
+        "num_images": 3
+    },
+    {
+        "album_id": 34026,
+        "num_tracks": 2,
+        "artist_id": 8760,
+        "title": "Angel",
+        "genres": "Electronic:Funk / Soul:Pop:Stage & Screen",
+        "year": "1985",
+        "num_images": 4
+    },
+    {
+        "album_id": 157635,
+        "num_tracks": 2,
+        "artist_id": 33287,
+        "title": "Anticipation",
+        "genres": "Rock",
+        "year": "1998",
+        "num_images": 3
+    },
+    {
+        "album_id": 21531,
+        "num_tracks": 3,
+        "artist_id": 3840,
+        "title": "Anyone Can Play Guitar",
+        "genres": "Rock",
+        "year": "1993",
+        "num_images": 2
+    },
+    {
+        "album_id": 785753,
+        "num_tracks": 1,
+        "artist_id": 1103159,
+        "title": "Anything Goes",
+        "genres": "Jazz:Pop:Stage & Screen",
+        "year": "2014",
+        "num_images": 3
+    },
+    {
+        "album_id": 43638,
+        "num_tracks": 2,
+        "artist_id": 33287,
+        "title": "Anything You Want",
+        "genres": "Rock",
+        "year": "2001",
+        "num_images": 2
+    },
+    {
+        "album_id": 585303,
+        "num_tracks": 2,
+        "artist_id": 1103159,
+        "title": "Applause",
+        "genres": "Electronic:Pop",
+        "year": "2013",
+        "num_images": 4
+    },
+    {
+        "album_id": 616094,
+        "num_tracks": 15,
+        "artist_id": 1103159,
+        "title": "Artpop",
+        "genres": "Electronic:Hip Hop:Pop",
+        "year": "2013",
+        "num_images": 2
+    },
+    {
+        "album_id": 3061184,
+        "num_tracks": 11,
+        "artist_id": 1103159,
+        "title": "B.T.W. Singles Remix",
+        "genres": "Electronic:Pop",
+        "year": "2011",
+        "num_images": 4
+    },
+    {
+        "album_id": 24961,
+        "num_tracks": 2,
+        "artist_id": 137880,
+        "title": "Back Like That",
+        "genres": "Hip Hop",
+        "year": "2006",
+        "num_images": 3
+    },
+    {
+        "album_id": 581537,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "Back To December",
+        "genres": "Pop:Folk, World, & Country",
+        "year": "2010",
+        "num_images": 1
+    },
+    {
+        "album_id": 200007,
+        "num_tracks": 2,
+        "artist_id": 1103159,
+        "title": "Bad Romance",
+        "genres": "Electronic:Hip Hop:Pop",
+        "year": "2009",
+        "num_images": 4
+    },
+    {
+        "album_id": 4283963,
+        "num_tracks": 6,
+        "artist_id": 321128,
+        "title": "Bad Romance / Baby By Me / Russian Roulette / Morning After Dark",
+        "genres": "Electronic:Hip Hop:Pop",
+        "year": "2009",
+        "num_images": 2
+    },
+    {
+        "album_id": 4283963,
+        "num_tracks": 6,
+        "artist_id": 1103159,
+        "title": "Bad Romance / Baby By Me / Russian Roulette / Morning After Dark",
+        "genres": "Electronic:Hip Hop:Pop",
+        "year": "2009",
+        "num_images": 2
+    },
+    {
+        "album_id": 1405253,
+        "num_tracks": 17,
+        "artist_id": 1124645,
+        "title": "Beautiful Eyes",
+        "genres": "Pop:Folk, World, & Country",
+        "year": "2008",
+        "num_images": 1
+    },
+    {
+        "album_id": 6015220,
+        "num_tracks": 2,
+        "artist_id": 1103159,
+        "title": "Beautiful, Dirty, Rich",
+        "genres": "Latin:Pop",
+        "year": "2009",
+        "num_images": 2
+    },
+    {
+        "album_id": 155902,
+        "num_tracks": 4,
+        "artist_id": 137880,
+        "title": "Because Of You",
+        "genres": "Hip Hop:Pop",
+        "year": "2007",
+        "num_images": 1
+    },
+    {
+        "album_id": 4143099,
+        "num_tracks": 7,
+        "artist_id": 3840,
+        "title": "Before Kid A",
+        "genres": "Rock",
+        "year": "2000",
+        "num_images": 4
+    },
+    {
+        "album_id": 493531,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "Begin Again",
+        "genres": "Pop:Folk, World, & Country",
+        "year": "2012",
+        "num_images": 1
+    },
+    {
+        "album_id": 20344,
+        "num_tracks": 5,
+        "artist_id": 137880,
+        "title": "Better Than I've Ever Been / Classic",
+        "genres": "Hip Hop",
+        "year": "2007",
+        "num_images": 1
+    },
+    {
+        "album_id": 4354126,
+        "num_tracks": 6,
+        "artist_id": 3184872,
+        "title": "Beyonce & Missy \"Crazy In Love\"",
+        "genres": "Hip Hop:Pop",
+        "year": "0",
+        "num_images": 0
+    },
+    {
+        "album_id": 727341,
+        "num_tracks": 2,
+        "artist_id": 971243,
+        "title": "Birthday",
+        "genres": "Pop",
+        "year": "2014",
+        "num_images": 2
+    },
+    {
+        "album_id": 6479853,
+        "num_tracks": 2,
+        "artist_id": 1124645,
+        "title": "Blank Space",
+        "genres": "Pop",
+        "year": "2015",
+        "num_images": 1
+    },
+    {
+        "album_id": 3659213,
+        "num_tracks": 2,
+        "artist_id": 3840,
+        "title": "Bones",
+        "genres": "Rock",
+        "year": "1996",
+        "num_images": 3
+    },
+    {
+        "album_id": 2591006,
+        "num_tracks": 10,
+        "artist_id": 33287,
+        "title": "Bonus Tracks 2008-2009",
+        "genres": "Rock",
+        "year": "2010",
+        "num_images": 4
+    },
+    {
+        "album_id": 5473,
+        "num_tracks": 2,
+        "artist_id": 8760,
+        "title": "Borderline",
+        "genres": "Electronic:Pop",
+        "year": "1984",
+        "num_images": 4
+    },
+    {
+        "album_id": 338175,
+        "num_tracks": 15,
+        "artist_id": 1103159,
+        "title": "Born This Way",
+        "genres": "Electronic:Rock:Pop",
+        "year": "2011",
+        "num_images": 5
+    },
+    {
+        "album_id": 316302,
+        "num_tracks": 4,
+        "artist_id": 1103159,
+        "title": "Born This Way",
+        "genres": "Electronic:Pop",
+        "year": "2011",
+        "num_images": 7
+    },
+    {
+        "album_id": 3235160,
+        "num_tracks": 57,
+        "artist_id": 1103159,
+        "title": "Born This Way (The Collection)",
+        "genres": "Electronic:Pop",
+        "year": "2011",
+        "num_images": 11
+    },
+    {
+        "album_id": 387281,
+        "num_tracks": 14,
+        "artist_id": 1103159,
+        "title": "Born This Way - The Remix",
+        "genres": "Electronic:Pop",
+        "year": "2011",
+        "num_images": 4
+    },
+    {
+        "album_id": 757035,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "Both Of Us",
+        "genres": "Hip Hop:Pop",
+        "year": "2012",
+        "num_images": 1
+    },
+    {
+        "album_id": 6531153,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "Boys",
+        "genres": "Rock",
+        "year": "1963",
+        "num_images": 2
+    },
+    {
+        "album_id": 6466166,
+        "num_tracks": 4,
+        "artist_id": 137880,
+        "title": "Brand New",
+        "genres": "Hip Hop",
+        "year": "2005",
+        "num_images": 1
+    },
+    {
+        "album_id": 40008,
+        "num_tracks": 4,
+        "artist_id": 137880,
+        "title": "Brand New",
+        "genres": "Hip Hop",
+        "year": "2005",
+        "num_images": 1
+    },
+    {
+        "album_id": 646532,
+        "num_tracks": 1,
+        "artist_id": 321128,
+        "title": "Break It Off",
+        "genres": "Funk / Soul",
+        "year": "2007",
+        "num_images": 1
+    },
+    {
+        "album_id": 495157,
+        "num_tracks": 5,
+        "artist_id": 321128,
+        "title": "Breaking Dishes",
+        "genres": "Electronic:Pop",
+        "year": "2009",
+        "num_images": 1
+    },
+    {
+        "album_id": 213509,
+        "num_tracks": 12,
+        "artist_id": 971243,
+        "title": "Breakout",
+        "genres": "Rock",
+        "year": "2008",
+        "num_images": 3
+    },
+    {
+        "album_id": 5407391,
+        "num_tracks": 1,
+        "artist_id": 321128,
+        "title": "Bring It Back",
+        "genres": "Electronic:Funk / Soul",
+        "year": "2005",
+        "num_images": 0
+    },
+    {
+        "album_id": 2702464,
+        "num_tracks": 2,
+        "artist_id": 8760,
+        "title": "Burning Up / Get On Up",
+        "genres": "Electronic:Rock:Funk / Soul",
+        "year": "1983",
+        "num_images": 2
+    },
+    {
+        "album_id": 5519,
+        "num_tracks": 4,
+        "artist_id": 8760,
+        "title": "Burning Up / Physical Attraction",
+        "genres": "Electronic",
+        "year": "1983",
+        "num_images": 5
+    },
+    {
+        "album_id": 2296567,
+        "num_tracks": 15,
+        "artist_id": 1124645,
+        "title": "CMT Crossroads",
+        "genres": "Folk, World, & Country:Rock",
+        "year": "2010",
+        "num_images": 1
+    },
+    {
+        "album_id": 255157,
+        "num_tracks": 2,
+        "artist_id": 971243,
+        "title": "California Gurls",
+        "genres": "Electronic:Hip Hop:Pop",
+        "year": "2010",
+        "num_images": 5
+    },
+    {
+        "album_id": 562826,
+        "num_tracks": 6,
+        "artist_id": 137880,
+        "title": "Can't Tell Me Nothing",
+        "genres": "Hip Hop",
+        "year": "2008",
+        "num_images": 2
+    },
+    {
+        "album_id": 574106,
+        "num_tracks": 25,
+        "artist_id": 137880,
+        "title": "Can't Tell Me Nothing",
+        "genres": "Hip Hop",
+        "year": "2007",
+        "num_images": 1
+    },
+    {
+        "album_id": 1595891,
+        "num_tracks": 3,
+        "artist_id": 33287,
+        "title": "Car Radio",
+        "genres": "Rock",
+        "year": "1998",
+        "num_images": 1
+    },
+    {
+        "album_id": 1595879,
+        "num_tracks": 2,
+        "artist_id": 33287,
+        "title": "Car Radio / Advance Cassette",
+        "genres": "Rock",
+        "year": "2001",
+        "num_images": 1
+    },
+    {
+        "album_id": 34176,
+        "num_tracks": 4,
+        "artist_id": 8760,
+        "title": "Causing A Commotion",
+        "genres": "Electronic:Stage & Screen",
+        "year": "1987",
+        "num_images": 4
+    },
+    {
+        "album_id": 4412984,
+        "num_tracks": 10,
+        "artist_id": 3840,
+        "title": "Central 4 Diversion TV",
+        "genres": "Rock",
+        "year": "1998",
+        "num_images": 1
+    },
+    {
+        "album_id": 4720158,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "Change",
+        "genres": "Pop:Folk, World, & Country",
+        "year": "2008",
+        "num_images": 1
+    },
+    {
+        "album_id": 735298,
+        "num_tracks": 18,
+        "artist_id": 1103159,
+        "title": "Cheek To Cheek",
+        "genres": "Jazz",
+        "year": "2014",
+        "num_images": 4
+    },
+    {
+        "album_id": 2448342,
+        "num_tracks": 21,
+        "artist_id": 137880,
+        "title": "Chicago's Finest",
+        "genres": "Hip Hop",
+        "year": "2006",
+        "num_images": 1
+    },
+    {
+        "album_id": 397264,
+        "num_tracks": 2,
+        "artist_id": 1103159,
+        "title": "Chillin",
+        "genres": "Hip Hop:Pop",
+        "year": "2009",
+        "num_images": 1
+    },
+    {
+        "album_id": 66134,
+        "num_tracks": 1,
+        "artist_id": 1103159,
+        "title": "Christmas Tree",
+        "genres": "Electronic",
+        "year": "2008",
+        "num_images": 1
+    },
+    {
+        "album_id": 2926928,
+        "num_tracks": 1,
+        "artist_id": 971243,
+        "title": "Circle The Drain",
+        "genres": "Pop",
+        "year": "2010",
+        "num_images": 1
+    },
+    {
+        "album_id": 6387134,
+        "num_tracks": 19,
+        "artist_id": 137880,
+        "title": "College Dropout The Mixtape",
+        "genres": "Hip Hop",
+        "year": "2003",
+        "num_images": 1
+    },
+    {
+        "album_id": 935100,
+        "num_tracks": 6,
+        "artist_id": 3840,
+        "title": "College Karma EP",
+        "genres": "Rock",
+        "year": "1997",
+        "num_images": 4
+    },
+    {
+        "album_id": 136804,
+        "num_tracks": 3,
+        "artist_id": 137880,
+        "title": "Confessions Part II",
+        "genres": "Funk / Soul",
+        "year": "2004",
+        "num_images": 1
+    },
+    {
+        "album_id": 34224,
+        "num_tracks": 3,
+        "artist_id": 8760,
+        "title": "Cosmic Climb",
+        "genres": "Electronic",
+        "year": "1986",
+        "num_images": 2
+    },
+    {
+        "album_id": 34260,
+        "num_tracks": 3,
+        "artist_id": 8760,
+        "title": "Crazy For You",
+        "genres": "Pop:Rock",
+        "year": "1985",
+        "num_images": 2
+    },
+    {
+        "album_id": 21481,
+        "num_tracks": 4,
+        "artist_id": 3840,
+        "title": "Creep",
+        "genres": "Rock",
+        "year": "1992",
+        "num_images": 3
+    },
+    {
+        "album_id": 348309,
+        "num_tracks": 4,
+        "artist_id": 8760,
+        "title": "Dance Mix",
+        "genres": "Electronic",
+        "year": "1985",
+        "num_images": 4
+    },
+    {
+        "album_id": 680723,
+        "num_tracks": 2,
+        "artist_id": 971243,
+        "title": "Dark Horse",
+        "genres": "Electronic:Pop",
+        "year": "2014",
+        "num_images": 4
+    },
+    {
+        "album_id": 462613,
+        "num_tracks": 5,
+        "artist_id": 33287,
+        "title": "Daytrotter Session",
+        "genres": "Rock",
+        "year": "2008",
+        "num_images": 1
+    },
+    {
+        "album_id": 3001095,
+        "num_tracks": 35,
+        "artist_id": 33287,
+        "title": "Demo Reel - Music Project",
+        "genres": "Electronic:Non-Music:Rock",
+        "year": "2005",
+        "num_images": 3
+    },
+    {
+        "album_id": 4496227,
+        "num_tracks": 24,
+        "artist_id": 3840,
+        "title": "Desktop Box Set",
+        "genres": "Rock",
+        "year": "1998",
+        "num_images": 4
+    },
+    {
+        "album_id": 7039,
+        "num_tracks": 4,
+        "artist_id": 137880,
+        "title": "Diamonds From Sierra Leone",
+        "genres": "Hip Hop",
+        "year": "2005",
+        "num_images": 3
+    },
+    {
+        "album_id": 20443,
+        "num_tracks": 2,
+        "artist_id": 321128,
+        "title": "Disturbia",
+        "genres": "Hip Hop:Funk / Soul:Pop",
+        "year": "2008",
+        "num_images": 2
+    },
+    {
+        "album_id": 610120,
+        "num_tracks": 1,
+        "artist_id": 1103159,
+        "title": "Do What U Want",
+        "genres": "Electronic:Pop",
+        "year": "2014",
+        "num_images": 1
+    },
+    {
+        "album_id": 774022,
+        "num_tracks": 1,
+        "artist_id": 33287,
+        "title": "Do You",
+        "genres": "Rock",
+        "year": "2014",
+        "num_images": 2
+    },
+    {
+        "album_id": 20394,
+        "num_tracks": 4,
+        "artist_id": 321128,
+        "title": "Don't Stop The Music",
+        "genres": "Electronic:Hip Hop",
+        "year": "2007",
+        "num_images": 4
+    },
+    {
+        "album_id": 654788,
+        "num_tracks": 3,
+        "artist_id": 321128,
+        "title": "Don't Stop The Music (Hit Pack)",
+        "genres": "Reggae:Blues:Pop",
+        "year": "2008",
+        "num_images": 1
+    },
+    {
+        "album_id": 1257258,
+        "num_tracks": 9,
+        "artist_id": 33287,
+        "title": "Don't You Evah",
+        "genres": "Rock",
+        "year": "2008",
+        "num_images": 5
+    },
+    {
+        "album_id": 65456,
+        "num_tracks": 3,
+        "artist_id": 8760,
+        "title": "Dress You Up",
+        "genres": "Electronic",
+        "year": "1985",
+        "num_images": 4
+    },
+    {
+        "album_id": 2705746,
+        "num_tracks": 2,
+        "artist_id": 8760,
+        "title": "Dress You Up / Life In One Day",
+        "genres": "Electronic:Pop",
+        "year": "1985",
+        "num_images": 2
+    },
+    {
+        "album_id": 73605,
+        "num_tracks": 4,
+        "artist_id": 3840,
+        "title": "Drill",
+        "genres": "Rock",
+        "year": "1992",
+        "num_images": 3
+    },
+    {
+        "album_id": 321156,
+        "num_tracks": 2,
+        "artist_id": 971243,
+        "title": "E.T.",
+        "genres": "Pop",
+        "year": "2011",
+        "num_images": 3
+    },
+    {
+        "album_id": 77389,
+        "num_tracks": 2,
+        "artist_id": 1103159,
+        "title": "Eh, Eh (Nothing Else I Can Say)",
+        "genres": "Electronic:Pop",
+        "year": "2009",
+        "num_images": 3
+    },
+    {
+        "album_id": 5423,
+        "num_tracks": 2,
+        "artist_id": 8760,
+        "title": "Everybody",
+        "genres": "Electronic",
+        "year": "1982",
+        "num_images": 4
+    },
+    {
+        "album_id": 581262,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "Everything Has Changed",
+        "genres": "Pop:Folk, World, & Country",
+        "year": "2013",
+        "num_images": 2
+    },
+    {
+        "album_id": 670484,
+        "num_tracks": 4,
+        "artist_id": 33287,
+        "title": "Everything Hits At Once",
+        "genres": "Rock",
+        "year": "2001",
+        "num_images": 2
+    },
+    {
+        "album_id": 207056,
+        "num_tracks": 4,
+        "artist_id": 137880,
+        "title": "Extravaganza",
+        "genres": "Hip Hop",
+        "year": "2005",
+        "num_images": 1
+    },
+    {
+        "album_id": 6084571,
+        "num_tracks": 6,
+        "artist_id": 1124645,
+        "title": "Eyes Open",
+        "genres": "Rock",
+        "year": "2012",
+        "num_images": 3
+    },
+    {
+        "album_id": 21526,
+        "num_tracks": 3,
+        "artist_id": 3840,
+        "title": "Fake Plastic Trees",
+        "genres": "Rock",
+        "year": "0",
+        "num_images": 1
+    },
+    {
+        "album_id": 4720145,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "Fearless",
+        "genres": "Folk, World, & Country",
+        "year": "2008",
+        "num_images": 1
+    },
+    {
+        "album_id": 222553,
+        "num_tracks": 15,
+        "artist_id": 1124645,
+        "title": "Fearless",
+        "genres": "Rock:Folk, World, & Country",
+        "year": "2008",
+        "num_images": 4
+    },
+    {
+        "album_id": 732757,
+        "num_tracks": 2,
+        "artist_id": 1124645,
+        "title": "Fifteen",
+        "genres": "Folk, World, & Country",
+        "year": "2009",
+        "num_images": 1
+    },
+    {
+        "album_id": 3308296,
+        "num_tracks": 11,
+        "artist_id": 321128,
+        "title": "Fireflies / Rude Boy / Russian Roulette",
+        "genres": "Electronic:Pop",
+        "year": "2010",
+        "num_images": 2
+    },
+    {
+        "album_id": 290664,
+        "num_tracks": 2,
+        "artist_id": 971243,
+        "title": "Firework",
+        "genres": "Electronic",
+        "year": "2010",
+        "num_images": 3
+    },
+    {
+        "album_id": 290809,
+        "num_tracks": 4,
+        "artist_id": 137880,
+        "title": "Flashing Lights",
+        "genres": "Hip Hop",
+        "year": "2007",
+        "num_images": 1
+    },
+    {
+        "album_id": 352505,
+        "num_tracks": 4,
+        "artist_id": 82730,
+        "title": "From Me To You",
+        "genres": "Rock",
+        "year": "1963",
+        "num_images": 3
+    },
+    {
+        "album_id": 45251,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "From Me To You",
+        "genres": "Rock",
+        "year": "1963",
+        "num_images": 4
+    },
+    {
+        "album_id": 676579,
+        "num_tracks": 11,
+        "artist_id": 97334,
+        "title": "G-Trance",
+        "genres": "Electronic",
+        "year": "1995",
+        "num_images": 1
+    },
+    {
+        "album_id": 681605,
+        "num_tracks": 4,
+        "artist_id": 1103159,
+        "title": "G.U.Y.",
+        "genres": "Electronic:Pop",
+        "year": "2014",
+        "num_images": 1
+    },
+    {
+        "album_id": 43603,
+        "num_tracks": 10,
+        "artist_id": 33287,
+        "title": "Ga Ga Ga Ga Ga",
+        "genres": "Rock",
+        "year": "2007",
+        "num_images": 1
+    },
+    {
+        "album_id": 3022031,
+        "num_tracks": 6,
+        "artist_id": 1103159,
+        "title": "Gaga Remixes",
+        "genres": "Electronic",
+        "year": "2009",
+        "num_images": 1
+    },
+    {
+        "album_id": 34481,
+        "num_tracks": 2,
+        "artist_id": 8760,
+        "title": "Gambler",
+        "genres": "Rock",
+        "year": "1985",
+        "num_images": 1
+    },
+    {
+        "album_id": 633924,
+        "num_tracks": 2,
+        "artist_id": 137880,
+        "title": "Get 'Em High (Remix)",
+        "genres": "Hip Hop",
+        "year": "2004",
+        "num_images": 0
+    },
+    {
+        "album_id": 1353157,
+        "num_tracks": 36,
+        "artist_id": 137880,
+        "title": "Get Well Soon...",
+        "genres": "Funk / Soul:Hip Hop",
+        "year": "2003",
+        "num_images": 1
+    },
+    {
+        "album_id": 43582,
+        "num_tracks": 11,
+        "artist_id": 33287,
+        "title": "Gimme Fiction",
+        "genres": "Rock",
+        "year": "2005",
+        "num_images": 1
+    },
+    {
+        "album_id": 43616,
+        "num_tracks": 11,
+        "artist_id": 33287,
+        "title": "Girls Can Tell",
+        "genres": "Rock",
+        "year": "2001",
+        "num_images": 5
+    },
+    {
+        "album_id": 7055,
+        "num_tracks": 4,
+        "artist_id": 137880,
+        "title": "Gold Digger",
+        "genres": "Hip Hop",
+        "year": "2005",
+        "num_images": 1
+    },
+    {
+        "album_id": 20387,
+        "num_tracks": 12,
+        "artist_id": 321128,
+        "title": "Good Girl Gone Bad",
+        "genres": "Hip Hop:Pop",
+        "year": "2007",
+        "num_images": 2
+    },
+    {
+        "album_id": 170160,
+        "num_tracks": 18,
+        "artist_id": 321128,
+        "title": "Good Girl Gone Bad Live",
+        "genres": "Electronic:Funk / Soul:Pop",
+        "year": "2008",
+        "num_images": 3
+    },
+    {
+        "album_id": 373881,
+        "num_tracks": 12,
+        "artist_id": 321128,
+        "title": "Good Girl Gone Bad: The Remixes",
+        "genres": "Electronic",
+        "year": "2009",
+        "num_images": 3
+    },
+    {
+        "album_id": 8431,
+        "num_tracks": 4,
+        "artist_id": 137880,
+        "title": "Good Life",
+        "genres": "Hip Hop",
+        "year": "2007",
+        "num_images": 1
+    },
+    {
+        "album_id": 163011,
+        "num_tracks": 4,
+        "artist_id": 33287,
+        "title": "Got Nuffin",
+        "genres": "Rock",
+        "year": "2009",
+        "num_images": 4
+    },
+    {
+        "album_id": 8497,
+        "num_tracks": 13,
+        "artist_id": 137880,
+        "title": "Graduation",
+        "genres": "Hip Hop",
+        "year": "2007",
+        "num_images": 3
+    },
+    {
+        "album_id": 1567251,
+        "num_tracks": 6,
+        "artist_id": 137880,
+        "title": "Graduation \"Bonus Tracks, Remixes, Unreleased\" EP",
+        "genres": "Hip Hop",
+        "year": "2007",
+        "num_images": 2
+    },
+    {
+        "album_id": 4186671,
+        "num_tracks": 14,
+        "artist_id": 971243,
+        "title": "Guilt By Association Vol. 2",
+        "genres": "Rock:Pop",
+        "year": "2008",
+        "num_images": 1
+    },
+    {
+        "album_id": 2884133,
+        "num_tracks": 1,
+        "artist_id": 1103159,
+        "title": "Hair",
+        "genres": "Electronic:Rock:Pop",
+        "year": "2011",
+        "num_images": 1
+    },
+    {
+        "album_id": 281219,
+        "num_tracks": 10,
+        "artist_id": 321128,
+        "title": "Hard",
+        "genres": "Electronic:Hip Hop",
+        "year": "2010",
+        "num_images": 2
+    },
+    {
+        "album_id": 20399,
+        "num_tracks": 4,
+        "artist_id": 321128,
+        "title": "Hate That I Love You",
+        "genres": "Electronic:Hip Hop",
+        "year": "2007",
+        "num_images": 4
+    },
+    {
+        "album_id": 742997,
+        "num_tracks": 1,
+        "artist_id": 321128,
+        "title": "Hate That I Love You",
+        "genres": "Pop",
+        "year": "2008",
+        "num_images": 3
+    },
+    {
+        "album_id": 4786449,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "Haunted (Acoustic Version)",
+        "genres": "Electronic:Rock:Pop:Folk, World, & Country",
+        "year": "2011",
+        "num_images": 1
+    },
+    {
+        "album_id": 200131,
+        "num_tracks": 2,
+        "artist_id": 137880,
+        "title": "Heard 'Em Say",
+        "genres": "Hip Hop:Pop",
+        "year": "2005",
+        "num_images": 1
+    },
+    {
+        "album_id": 7070,
+        "num_tracks": 6,
+        "artist_id": 137880,
+        "title": "Heard 'Em Say / Touch The Sky",
+        "genres": "Hip Hop",
+        "year": "2005",
+        "num_images": 3
+    },
+    {
+        "album_id": 3385878,
+        "num_tracks": 1,
+        "artist_id": 1103159,
+        "title": "Heavy Metal Lover",
+        "genres": "Pop",
+        "year": "2012",
+        "num_images": 1
+    },
+    {
+        "album_id": 4088479,
+        "num_tracks": 40,
+        "artist_id": 971243,
+        "title": "Herzber\u00fchrt 04",
+        "genres": "Electronic:Hip Hop:Rock:Funk / Soul:Pop",
+        "year": "2008",
+        "num_images": 1
+    },
+    {
+        "album_id": 97178,
+        "num_tracks": 4,
+        "artist_id": 3840,
+        "title": "High & Dry / Planet Telex",
+        "genres": "Electronic:Rock",
+        "year": "1995",
+        "num_images": 3
+    },
+    {
+        "album_id": 6084510,
+        "num_tracks": 4,
+        "artist_id": 1124645,
+        "title": "Highway Don't Care",
+        "genres": "Folk, World, & Country",
+        "year": "2013",
+        "num_images": 3
+    },
+    {
+        "album_id": 1904079,
+        "num_tracks": 7,
+        "artist_id": 1103159,
+        "title": "Hitmixes",
+        "genres": "Electronic:Pop",
+        "year": "2009",
+        "num_images": 7
+    },
+    {
+        "album_id": 405793,
+        "num_tracks": 6,
+        "artist_id": 137880,
+        "title": "Hold On",
+        "genres": "Hip Hop:Funk / Soul",
+        "year": "2004",
+        "num_images": 2
+    },
+    {
+        "album_id": 5592,
+        "num_tracks": 2,
+        "artist_id": 8760,
+        "title": "Holiday",
+        "genres": "Electronic:Funk / Soul:Pop",
+        "year": "1983",
+        "num_images": 1
+    },
+    {
+        "album_id": 349379,
+        "num_tracks": 2,
+        "artist_id": 8760,
+        "title": "Holiday / Borderline",
+        "genres": "Electronic",
+        "year": "1983",
+        "num_images": 2
+    },
+    {
+        "album_id": 295403,
+        "num_tracks": 2,
+        "artist_id": 8760,
+        "title": "Holiday / Everybody",
+        "genres": "Electronic:Pop",
+        "year": "1989",
+        "num_images": 3
+    },
+    {
+        "album_id": 851622,
+        "num_tracks": 4,
+        "artist_id": 8760,
+        "title": "Holiday / Over And Over",
+        "genres": "Electronic",
+        "year": "1987",
+        "num_images": 3
+    },
+    {
+        "album_id": 8630,
+        "num_tracks": 2,
+        "artist_id": 137880,
+        "title": "Homecoming",
+        "genres": "Hip Hop",
+        "year": "2008",
+        "num_images": 1
+    },
+    {
+        "album_id": 90966,
+        "num_tracks": 3,
+        "artist_id": 971243,
+        "title": "Hot N Cold",
+        "genres": "Electronic:Rock:Pop",
+        "year": "2008",
+        "num_images": 4
+    },
+    {
+        "album_id": 700100,
+        "num_tracks": 1,
+        "artist_id": 3840,
+        "title": "How To Disappear Completely",
+        "genres": "Rock",
+        "year": "2000",
+        "num_images": 2
+    },
+    {
+        "album_id": 6323822,
+        "num_tracks": 1,
+        "artist_id": 1103159,
+        "title": "I Can't Give You Anything But Love",
+        "genres": "Jazz",
+        "year": "2014",
+        "num_images": 2
+    },
+    {
+        "album_id": 90987,
+        "num_tracks": 3,
+        "artist_id": 971243,
+        "title": "I Kissed A Girl",
+        "genres": "Electronic:Rock:Pop",
+        "year": "2008",
+        "num_images": 4
+    },
+    {
+        "album_id": 1510232,
+        "num_tracks": 3,
+        "artist_id": 971243,
+        "title": "I Kissed A Girl",
+        "genres": "Electronic",
+        "year": "2008",
+        "num_images": 4
+    },
+    {
+        "album_id": 1527478,
+        "num_tracks": 8,
+        "artist_id": 971243,
+        "title": "I Kissed A Girl",
+        "genres": "Electronic",
+        "year": "2008",
+        "num_images": 1
+    },
+    {
+        "album_id": 558896,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "I Knew You Were Trouble.",
+        "genres": "Electronic:Pop:Folk, World, & Country",
+        "year": "2012",
+        "num_images": 1
+    },
+    {
+        "album_id": 354463,
+        "num_tracks": 3,
+        "artist_id": 137880,
+        "title": "I Still Love H.E.R.",
+        "genres": "Hip Hop",
+        "year": "2007",
+        "num_images": 3
+    },
+    {
+        "album_id": 765912,
+        "num_tracks": 1,
+        "artist_id": 33287,
+        "title": "I Turn My Camera On",
+        "genres": "Rock",
+        "year": "2005",
+        "num_images": 1
+    },
+    {
+        "album_id": 146067,
+        "num_tracks": 2,
+        "artist_id": 33287,
+        "title": "I Turn My Camera On",
+        "genres": "Rock",
+        "year": "2005",
+        "num_images": 2
+    },
+    {
+        "album_id": 509277,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "I Want To Hold Your Hand",
+        "genres": "Rock",
+        "year": "1963",
+        "num_images": 4
+    },
+    {
+        "album_id": 45316,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "I Want To Hold Your Hand",
+        "genres": "Rock:Pop",
+        "year": "1963",
+        "num_images": 3
+    },
+    {
+        "album_id": 397187,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "I Want To Hold Your Hand",
+        "genres": "Rock",
+        "year": "1964",
+        "num_images": 2
+    },
+    {
+        "album_id": 755650,
+        "num_tracks": 4,
+        "artist_id": 82730,
+        "title": "I Want To Hold Your Hand",
+        "genres": "Rock",
+        "year": "1963",
+        "num_images": 4
+    },
+    {
+        "album_id": 97250,
+        "num_tracks": 1,
+        "artist_id": 3840,
+        "title": "Idioteque",
+        "genres": "Electronic:Folk, World, & Country:Rock",
+        "year": "2000",
+        "num_images": 2
+    },
+    {
+        "album_id": 20475,
+        "num_tracks": 2,
+        "artist_id": 321128,
+        "title": "If I Never See Your Face Again",
+        "genres": "Electronic:Rock",
+        "year": "2008",
+        "num_images": 3
+    },
+    {
+        "album_id": 20273,
+        "num_tracks": 2,
+        "artist_id": 321128,
+        "title": "If It's Lovin' That You Want",
+        "genres": "Hip Hop",
+        "year": "2005",
+        "num_images": 3
+    },
+    {
+        "album_id": 260290,
+        "num_tracks": 7,
+        "artist_id": 971243,
+        "title": "If We Ever Meet Again",
+        "genres": "Hip Hop:Pop",
+        "year": "2010",
+        "num_images": 3
+    },
+    {
+        "album_id": 1723655,
+        "num_tracks": 4,
+        "artist_id": 137880,
+        "title": "Impossible",
+        "genres": "Hip Hop",
+        "year": "2006",
+        "num_images": 1
+    },
+    {
+        "album_id": 151817,
+        "num_tracks": 5,
+        "artist_id": 8760,
+        "title": "In The Beginning",
+        "genres": "Electronic",
+        "year": "1987",
+        "num_images": 4
+    },
+    {
+        "album_id": 6394153,
+        "num_tracks": 1,
+        "artist_id": 33287,
+        "title": "Inside Out (Radio Edit)",
+        "genres": "Rock",
+        "year": "2014",
+        "num_images": 2
+    },
+    {
+        "album_id": 5887491,
+        "num_tracks": 3,
+        "artist_id": 33287,
+        "title": "Inside Out / Rent I Pay / Do You",
+        "genres": "Rock",
+        "year": "2014",
+        "num_images": 5
+    },
+    {
+        "album_id": 2925273,
+        "num_tracks": 18,
+        "artist_id": 33287,
+        "title": "Insound Tour Support Collection Vol. No. One",
+        "genres": "Rock:Pop",
+        "year": "2003",
+        "num_images": 5
+    },
+    {
+        "album_id": 66077,
+        "num_tracks": 3,
+        "artist_id": 8760,
+        "title": "Into The Groove",
+        "genres": "Electronic:Funk / Soul:Pop:Stage & Screen",
+        "year": "1985",
+        "num_images": 4
+    },
+    {
+        "album_id": 702478,
+        "num_tracks": 3,
+        "artist_id": 8760,
+        "title": "Into The Groove / Everybody",
+        "genres": "Electronic",
+        "year": "1987",
+        "num_images": 3
+    },
+    {
+        "album_id": 4666134,
+        "num_tracks": 1,
+        "artist_id": 1103159,
+        "title": "Isn't It A Strange Unicorn (Mashup)",
+        "genres": "Electronic:Pop",
+        "year": "2012",
+        "num_images": 1
+    },
+    {
+        "album_id": 6542406,
+        "num_tracks": 1,
+        "artist_id": 1103159,
+        "title": "It Don't Mean A Thing (If It Ain't Got That Swing)",
+        "genres": "Jazz:Pop:Stage & Screen",
+        "year": "2014",
+        "num_images": 3
+    },
+    {
+        "album_id": 515251,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "It Won't Be Long",
+        "genres": "Rock:Pop",
+        "year": "1963",
+        "num_images": 3
+    },
+    {
+        "album_id": 1875364,
+        "num_tracks": 14,
+        "artist_id": 8760,
+        "title": "It's That Girl",
+        "genres": "Pop",
+        "year": "1987",
+        "num_images": 2
+    },
+    {
+        "album_id": 97141,
+        "num_tracks": 8,
+        "artist_id": 3840,
+        "title": "Itch",
+        "genres": "Rock",
+        "year": "1994",
+        "num_images": 21
+    },
+    {
+        "album_id": 7013,
+        "num_tracks": 6,
+        "artist_id": 137880,
+        "title": "Jesus Walks",
+        "genres": "Hip Hop",
+        "year": "2004",
+        "num_images": 3
+    },
+    {
+        "album_id": 670483,
+        "num_tracks": 4,
+        "artist_id": 33287,
+        "title": "Jonathon Fisk + Stay Don't Go",
+        "genres": "Rock",
+        "year": "2002",
+        "num_images": 1
+    },
+    {
+        "album_id": 334051,
+        "num_tracks": 2,
+        "artist_id": 1103159,
+        "title": "Judas",
+        "genres": "Electronic:Pop",
+        "year": "2011",
+        "num_images": 3
+    },
+    {
+        "album_id": 97186,
+        "num_tracks": 7,
+        "artist_id": 3840,
+        "title": "Just",
+        "genres": "Electronic:Rock",
+        "year": "1995",
+        "num_images": 1
+    },
+    {
+        "album_id": 77385,
+        "num_tracks": 3,
+        "artist_id": 1103159,
+        "title": "Just Dance",
+        "genres": "Electronic:Pop",
+        "year": "2008",
+        "num_images": 3
+    },
+    {
+        "album_id": 97203,
+        "num_tracks": 3,
+        "artist_id": 3840,
+        "title": "Karma Police",
+        "genres": "Rock",
+        "year": "1997",
+        "num_images": 3
+    },
+    {
+        "album_id": 3659455,
+        "num_tracks": 2,
+        "artist_id": 3840,
+        "title": "Karma Police / Paranoid Android",
+        "genres": "Rock",
+        "year": "1997",
+        "num_images": 1
+    },
+    {
+        "album_id": 21501,
+        "num_tracks": 10,
+        "artist_id": 3840,
+        "title": "Kid A",
+        "genres": "Electronic:Rock",
+        "year": "2000",
+        "num_images": 12
+    },
+    {
+        "album_id": 2814689,
+        "num_tracks": 4,
+        "artist_id": 3840,
+        "title": "Kid A Blips",
+        "genres": "Electronic:Rock",
+        "year": "2000",
+        "num_images": 2
+    },
+    {
+        "album_id": 43632,
+        "num_tracks": 12,
+        "artist_id": 33287,
+        "title": "Kill The Moonlight",
+        "genres": "Rock",
+        "year": "2002",
+        "num_images": 4
+    },
+    {
+        "album_id": 65621,
+        "num_tracks": 2,
+        "artist_id": 8760,
+        "title": "La Isla Bonita",
+        "genres": "Electronic:Latin:Pop",
+        "year": "1987",
+        "num_images": 4
+    },
+    {
+        "album_id": 4752260,
+        "num_tracks": 2,
+        "artist_id": 8760,
+        "title": "La Isla Bonita / Right On Track",
+        "genres": "Rock:Pop",
+        "year": "1987",
+        "num_images": 2
+    },
+    {
+        "album_id": 409395,
+        "num_tracks": 14,
+        "artist_id": 97334,
+        "title": "LaseRave Vol. 4",
+        "genres": "Electronic",
+        "year": "1996",
+        "num_images": 2
+    },
+    {
+        "album_id": 3933156,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "Last Christmas",
+        "genres": "Folk, World, & Country",
+        "year": "2007",
+        "num_images": 1
+    },
+    {
+        "album_id": 345555,
+        "num_tracks": 3,
+        "artist_id": 971243,
+        "title": "Last Friday Night (T.G.I.F.)",
+        "genres": "Pop",
+        "year": "2011",
+        "num_images": 2
+    },
+    {
+        "album_id": 400796,
+        "num_tracks": 19,
+        "artist_id": 137880,
+        "title": "Late Orchestration",
+        "genres": "Hip Hop",
+        "year": "2006",
+        "num_images": 2
+    },
+    {
+        "album_id": 358399,
+        "num_tracks": 13,
+        "artist_id": 137880,
+        "title": "Late Orchestration",
+        "genres": "Hip Hop",
+        "year": "2006",
+        "num_images": 3
+    },
+    {
+        "album_id": 7087,
+        "num_tracks": 23,
+        "artist_id": 137880,
+        "title": "Late Registration",
+        "genres": "Hip Hop",
+        "year": "2005",
+        "num_images": 6
+    },
+    {
+        "album_id": 444086,
+        "num_tracks": 1,
+        "artist_id": 3840,
+        "title": "Let Down",
+        "genres": "Rock",
+        "year": "1997",
+        "num_images": 4
+    },
+    {
+        "album_id": 4424734,
+        "num_tracks": 6,
+        "artist_id": 3840,
+        "title": "Let Down DJ Copy",
+        "genres": "Rock",
+        "year": "1998",
+        "num_images": 1
+    },
+    {
+        "album_id": 18021,
+        "num_tracks": 9,
+        "artist_id": 8760,
+        "title": "Like A Virgin",
+        "genres": "Electronic:Pop",
+        "year": "1984",
+        "num_images": 5
+    },
+    {
+        "album_id": 34649,
+        "num_tracks": 2,
+        "artist_id": 8760,
+        "title": "Like A Virgin",
+        "genres": "Electronic",
+        "year": "1984",
+        "num_images": 4
+    },
+    {
+        "album_id": 374290,
+        "num_tracks": 4,
+        "artist_id": 8760,
+        "title": "Like A Virgin & Other Big Hits",
+        "genres": "Electronic:Pop",
+        "year": "1985",
+        "num_images": 11
+    },
+    {
+        "album_id": 1049589,
+        "num_tracks": 3,
+        "artist_id": 3840,
+        "title": "Live At The Astoria",
+        "genres": "Rock",
+        "year": "1995",
+        "num_images": 3
+    },
+    {
+        "album_id": 1049596,
+        "num_tracks": 4,
+        "artist_id": 3840,
+        "title": "Live Au Forum",
+        "genres": "Rock",
+        "year": "1995",
+        "num_images": 1
+    },
+    {
+        "album_id": 3844225,
+        "num_tracks": 5,
+        "artist_id": 3840,
+        "title": "Live EP",
+        "genres": "Rock",
+        "year": "1996",
+        "num_images": 3
+    },
+    {
+        "album_id": 6042187,
+        "num_tracks": 8,
+        "artist_id": 1124645,
+        "title": "Live From SoHo",
+        "genres": "Folk, World, & Country",
+        "year": "2007",
+        "num_images": 2
+    },
+    {
+        "album_id": 4236302,
+        "num_tracks": 11,
+        "artist_id": 3840,
+        "title": "Live On MTV Most Wanted",
+        "genres": "Rock:Non-Music",
+        "year": "1995",
+        "num_images": 1
+    },
+    {
+        "album_id": 34663,
+        "num_tracks": 2,
+        "artist_id": 8760,
+        "title": "Live To Tell",
+        "genres": "Electronic:Pop",
+        "year": "1986",
+        "num_images": 4
+    },
+    {
+        "album_id": 20470,
+        "num_tracks": 4,
+        "artist_id": 321128,
+        "title": "Live Your Life",
+        "genres": "Hip Hop",
+        "year": "2008",
+        "num_images": 3
+    },
+    {
+        "album_id": 6084610,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "Long Live",
+        "genres": "Folk, World, & Country",
+        "year": "2012",
+        "num_images": 1
+    },
+    {
+        "album_id": 2784129,
+        "num_tracks": 14,
+        "artist_id": 3840,
+        "title": "Looking Back At ....",
+        "genres": "Rock",
+        "year": "2000",
+        "num_images": 4
+    },
+    {
+        "album_id": 288815,
+        "num_tracks": 11,
+        "artist_id": 321128,
+        "title": "Loud",
+        "genres": "Hip Hop:Pop",
+        "year": "2010",
+        "num_images": 19
+    },
+    {
+        "album_id": 34669,
+        "num_tracks": 2,
+        "artist_id": 8760,
+        "title": "Love Don't Live Here Anymore",
+        "genres": "Electronic:Pop",
+        "year": "1996",
+        "num_images": 3
+    },
+    {
+        "album_id": 45574,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "Love Me Do",
+        "genres": "Rock",
+        "year": "1962",
+        "num_images": 5
+    },
+    {
+        "album_id": 689029,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "Love Me Do",
+        "genres": "Rock:Pop",
+        "year": "1963",
+        "num_images": 2
+    },
+    {
+        "album_id": 138811,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "Love Story",
+        "genres": "Folk, World, & Country",
+        "year": "2008",
+        "num_images": 1
+    },
+    {
+        "album_id": 289096,
+        "num_tracks": 2,
+        "artist_id": 321128,
+        "title": "Love The Way You Lie",
+        "genres": "Hip Hop:Pop",
+        "year": "2010",
+        "num_images": 3
+    },
+    {
+        "album_id": 284375,
+        "num_tracks": 5,
+        "artist_id": 33287,
+        "title": "Love Ways",
+        "genres": "Rock",
+        "year": "2000",
+        "num_images": 4
+    },
+    {
+        "album_id": 104888,
+        "num_tracks": 2,
+        "artist_id": 1103159,
+        "title": "Lovegame",
+        "genres": "Electronic:Pop",
+        "year": "2009",
+        "num_images": 4
+    },
+    {
+        "album_id": 444088,
+        "num_tracks": 3,
+        "artist_id": 3840,
+        "title": "Lucky",
+        "genres": "Electronic:Rock",
+        "year": "1997",
+        "num_images": 3
+    },
+    {
+        "album_id": 5744,
+        "num_tracks": 2,
+        "artist_id": 8760,
+        "title": "Lucky Star",
+        "genres": "Electronic",
+        "year": "1983",
+        "num_images": 4
+    },
+    {
+        "album_id": 273912,
+        "num_tracks": 15,
+        "artist_id": 971243,
+        "title": "MTV Unplugged",
+        "genres": "Rock:Pop",
+        "year": "2009",
+        "num_images": 1
+    },
+    {
+        "album_id": 234990,
+        "num_tracks": 8,
+        "artist_id": 8760,
+        "title": "Madonna",
+        "genres": "Electronic",
+        "year": "1983",
+        "num_images": 1
+    },
+    {
+        "album_id": 5319,
+        "num_tracks": 8,
+        "artist_id": 8760,
+        "title": "Madonna",
+        "genres": "Electronic:Pop",
+        "year": "1983",
+        "num_images": 5
+    },
+    {
+        "album_id": 101955,
+        "num_tracks": 4,
+        "artist_id": 8760,
+        "title": "Madonna",
+        "genres": "Pop",
+        "year": "1984",
+        "num_images": 8
+    },
+    {
+        "album_id": 2664588,
+        "num_tracks": 30,
+        "artist_id": 8760,
+        "title": "Madonna (Special Club Edition)",
+        "genres": "Pop",
+        "year": "1986",
+        "num_images": 1
+    },
+    {
+        "album_id": 559460,
+        "num_tracks": 6,
+        "artist_id": 8760,
+        "title": "Madonna Mix",
+        "genres": "Electronic",
+        "year": "1985",
+        "num_images": 5
+    },
+    {
+        "album_id": 388411,
+        "num_tracks": 2,
+        "artist_id": 1103159,
+        "title": "Marry The Night",
+        "genres": "Electronic:Rock:Pop",
+        "year": "2011",
+        "num_images": 4
+    },
+    {
+        "album_id": 4225522,
+        "num_tracks": 26,
+        "artist_id": 971243,
+        "title": "Mash-Up Your Bootz Party Sampler - Best Of 2008",
+        "genres": "Pop",
+        "year": "2008",
+        "num_images": 1
+    },
+    {
+        "album_id": 4235275,
+        "num_tracks": 17,
+        "artist_id": 971243,
+        "title": "Mash-Up Your Bootz Party Sampler Vol. 15",
+        "genres": "Pop",
+        "year": "2008",
+        "num_images": 1
+    },
+    {
+        "album_id": 4235510,
+        "num_tracks": 16,
+        "artist_id": 971243,
+        "title": "Mash-Up Your Bootz Party Sampler Vol. 18",
+        "genres": "Pop",
+        "year": "2008",
+        "num_images": 1
+    },
+    {
+        "album_id": 65650,
+        "num_tracks": 2,
+        "artist_id": 8760,
+        "title": "Material Girl",
+        "genres": "Electronic",
+        "year": "1984",
+        "num_images": 4
+    },
+    {
+        "album_id": 2827091,
+        "num_tracks": 2,
+        "artist_id": 8760,
+        "title": "Material Girl / California Girls",
+        "genres": "Electronic:Rock",
+        "year": "1985",
+        "num_images": 2
+    },
+    {
+        "album_id": 710349,
+        "num_tracks": 3,
+        "artist_id": 8760,
+        "title": "Material Girl, Angel And Into The Groove",
+        "genres": "Electronic",
+        "year": "1985",
+        "num_images": 4
+    },
+    {
+        "album_id": 568381,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "Mean",
+        "genres": "Folk, World, & Country",
+        "year": "2010",
+        "num_images": 1
+    },
+    {
+        "album_id": 97235,
+        "num_tracks": 1,
+        "artist_id": 3840,
+        "title": "Meeting People Is Easy",
+        "genres": "Rock:Non-Music:Pop",
+        "year": "1998",
+        "num_images": 4
+    },
+    {
+        "album_id": 375711,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "Mine",
+        "genres": "Pop:Folk, World, & Country",
+        "year": "2010",
+        "num_images": 1
+    },
+    {
+        "album_id": 1576346,
+        "num_tracks": 12,
+        "artist_id": 321128,
+        "title": "Minimix",
+        "genres": "Electronic",
+        "year": "2007",
+        "num_images": 4
+    },
+    {
+        "album_id": 596084,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "Misery",
+        "genres": "Rock:Pop",
+        "year": "1963",
+        "num_images": 3
+    },
+    {
+        "album_id": 1535171,
+        "num_tracks": 18,
+        "artist_id": 971243,
+        "title": "Most Wanted 08",
+        "genres": "Electronic",
+        "year": "2008",
+        "num_images": 3
+    },
+    {
+        "album_id": 20282,
+        "num_tracks": 13,
+        "artist_id": 321128,
+        "title": "Music Of The Sun",
+        "genres": "Hip Hop:Pop",
+        "year": "2005",
+        "num_images": 12
+    },
+    {
+        "album_id": 646491,
+        "num_tracks": 5,
+        "artist_id": 321128,
+        "title": "Music Of The Sun (Album Sampler)",
+        "genres": "Reggae:Funk / Soul:Pop",
+        "year": "2005",
+        "num_images": 3
+    },
+    {
+        "album_id": 4580431,
+        "num_tracks": 27,
+        "artist_id": 321128,
+        "title": "Music Of The Sun + A Girl Like Me",
+        "genres": "Electronic:Hip Hop:Reggae:Pop",
+        "year": "2010",
+        "num_images": 1
+    },
+    {
+        "album_id": 504890,
+        "num_tracks": 4,
+        "artist_id": 82730,
+        "title": "My Bonnie",
+        "genres": "Pop:Rock",
+        "year": "1962",
+        "num_images": 1
+    },
+    {
+        "album_id": 119930,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "My Bonnie",
+        "genres": "Rock",
+        "year": "1961",
+        "num_images": 4
+    },
+    {
+        "album_id": 2641601,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "My Bonnie / Ya Ya",
+        "genres": "Rock",
+        "year": "1963",
+        "num_images": 2
+    },
+    {
+        "album_id": 1593331,
+        "num_tracks": 1,
+        "artist_id": 33287,
+        "title": "My First Time, Vol. 3",
+        "genres": "Rock",
+        "year": "2005",
+        "num_images": 1
+    },
+    {
+        "album_id": 21541,
+        "num_tracks": 8,
+        "artist_id": 3840,
+        "title": "My Iron Lung",
+        "genres": "Rock",
+        "year": "1994",
+        "num_images": 1
+    },
+    {
+        "album_id": 97217,
+        "num_tracks": 3,
+        "artist_id": 3840,
+        "title": "No Surprises",
+        "genres": "Rock",
+        "year": "1998",
+        "num_images": 3
+    },
+    {
+        "album_id": 27386,
+        "num_tracks": 6,
+        "artist_id": 3840,
+        "title": "No Surprises / Running From Demons",
+        "genres": "Electronic:Rock",
+        "year": "1997",
+        "num_images": 11
+    },
+    {
+        "album_id": 2626610,
+        "num_tracks": 1,
+        "artist_id": 33287,
+        "title": "Nobody Gets Me But You",
+        "genres": "Rock",
+        "year": "2010",
+        "num_images": 1
+    },
+    {
+        "album_id": 2926923,
+        "num_tracks": 1,
+        "artist_id": 971243,
+        "title": "Not Like The Movies",
+        "genres": "Pop",
+        "year": "2010",
+        "num_images": 1
+    },
+    {
+        "album_id": 117533,
+        "num_tracks": 2,
+        "artist_id": 33287,
+        "title": "Not Turning Off",
+        "genres": "Rock",
+        "year": "1996",
+        "num_images": 2
+    },
+    {
+        "album_id": 1577879,
+        "num_tracks": 22,
+        "artist_id": 971243,
+        "title": "Now: The Hits Of Summer 2009",
+        "genres": "Electronic:Hip Hop:Rock:Funk / Soul:Pop",
+        "year": "2008",
+        "num_images": 1
+    },
+    {
+        "album_id": 165856,
+        "num_tracks": 2,
+        "artist_id": 137880,
+        "title": "Number One",
+        "genres": "Electronic:Hip Hop",
+        "year": "2006",
+        "num_images": 1
+    },
+    {
+        "album_id": 21491,
+        "num_tracks": 16,
+        "artist_id": 3840,
+        "title": "OK Computer",
+        "genres": "Electronic:Rock",
+        "year": "1997",
+        "num_images": 17
+    },
+    {
+        "album_id": 4410251,
+        "num_tracks": 20,
+        "artist_id": 3840,
+        "title": "OK Computer The Singles Collector's Box",
+        "genres": "Rock",
+        "year": "1997",
+        "num_images": 2
+    },
+    {
+        "album_id": 90990,
+        "num_tracks": 13,
+        "artist_id": 971243,
+        "title": "One Of The Boys",
+        "genres": "Rock:Pop",
+        "year": "2008",
+        "num_images": 5
+    },
+    {
+        "album_id": 4793788,
+        "num_tracks": 6,
+        "artist_id": 971243,
+        "title": "One Of The Boys",
+        "genres": "Electronic:Pop",
+        "year": "2009",
+        "num_images": 2
+    },
+    {
+        "album_id": 280230,
+        "num_tracks": 2,
+        "artist_id": 321128,
+        "title": "Only Girl (In The World)",
+        "genres": "Electronic:Pop",
+        "year": "2010",
+        "num_images": 4
+    },
+    {
+        "album_id": 34792,
+        "num_tracks": 3,
+        "artist_id": 8760,
+        "title": "Open Your Heart",
+        "genres": "Electronic",
+        "year": "1986",
+        "num_images": 4
+    },
+    {
+        "album_id": 2813838,
+        "num_tracks": 2,
+        "artist_id": 8760,
+        "title": "Open Your Heart / You Know I Love You... Don't You?",
+        "genres": "Electronic",
+        "year": "1986",
+        "num_images": 2
+    },
+    {
+        "album_id": 6253447,
+        "num_tracks": 4,
+        "artist_id": 33287,
+        "title": "Open Your Soul To Me / Waiting To Know You / Rock Holy / This Is My Light",
+        "genres": "Rock",
+        "year": "2014",
+        "num_images": 9
+    },
+    {
+        "album_id": 6443279,
+        "num_tracks": 6,
+        "artist_id": 33287,
+        "title": "Or Thousands Of Prizes: The Covers EP",
+        "genres": "Rock",
+        "year": "2014",
+        "num_images": 1
+    },
+    {
+        "album_id": 5952076,
+        "num_tracks": 4,
+        "artist_id": 1124645,
+        "title": "Our Song",
+        "genres": "Rock:Pop:Folk, World, & Country",
+        "year": "2007",
+        "num_images": 3
+    },
+    {
+        "album_id": 581540,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "Ours",
+        "genres": "Folk, World, & Country",
+        "year": "2011",
+        "num_images": 1
+    },
+    {
+        "album_id": 260282,
+        "num_tracks": 2,
+        "artist_id": 8760,
+        "title": "Over And Over / Borderline",
+        "genres": "Pop",
+        "year": "1985",
+        "num_images": 3
+    },
+    {
+        "album_id": 13344,
+        "num_tracks": 12,
+        "artist_id": 3840,
+        "title": "Pablo Honey",
+        "genres": "Rock",
+        "year": "1993",
+        "num_images": 4
+    },
+    {
+        "album_id": 34801,
+        "num_tracks": 3,
+        "artist_id": 8760,
+        "title": "Papa Don't Preach",
+        "genres": "Electronic",
+        "year": "1986",
+        "num_images": 4
+    },
+    {
+        "album_id": 146544,
+        "num_tracks": 2,
+        "artist_id": 1103159,
+        "title": "Paparazzi",
+        "genres": "Electronic:Pop",
+        "year": "2009",
+        "num_images": 5
+    },
+    {
+        "album_id": 97229,
+        "num_tracks": 3,
+        "artist_id": 3840,
+        "title": "Paranoid Android",
+        "genres": "Rock",
+        "year": "1997",
+        "num_images": 3
+    },
+    {
+        "album_id": 429334,
+        "num_tracks": 2,
+        "artist_id": 971243,
+        "title": "Part Of Me",
+        "genres": "Electronic:Pop",
+        "year": "2012",
+        "num_images": 3
+    },
+    {
+        "album_id": 6491920,
+        "num_tracks": 1,
+        "artist_id": 321128,
+        "title": "Photographs",
+        "genres": "Hip Hop:Pop",
+        "year": "2010",
+        "num_images": 5
+    },
+    {
+        "album_id": 2365795,
+        "num_tracks": 2,
+        "artist_id": 8760,
+        "title": "Physical Attraction",
+        "genres": "Pop",
+        "year": "1983",
+        "num_images": 1
+    },
+    {
+        "album_id": 2384863,
+        "num_tracks": 2,
+        "artist_id": 1124645,
+        "title": "Picture To Burn",
+        "genres": "Folk, World, & Country",
+        "year": "2008",
+        "num_images": 1
+    },
+    {
+        "album_id": 1593310,
+        "num_tracks": 1,
+        "artist_id": 33287,
+        "title": "Plastc Mylar",
+        "genres": "Rock",
+        "year": "1996",
+        "num_images": 1
+    },
+    {
+        "album_id": 45362,
+        "num_tracks": 14,
+        "artist_id": 82730,
+        "title": "Please Please Me",
+        "genres": "Rock",
+        "year": "1963",
+        "num_images": 6
+    },
+    {
+        "album_id": 45619,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "Please Please Me",
+        "genres": "Rock",
+        "year": "1963",
+        "num_images": 4
+    },
+    {
+        "album_id": 356722,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "Please Please Me / From Me To You",
+        "genres": "Rock",
+        "year": "1964",
+        "num_images": 3
+    },
+    {
+        "album_id": 77387,
+        "num_tracks": 2,
+        "artist_id": 1103159,
+        "title": "Poker Face",
+        "genres": "Electronic:Pop",
+        "year": "2009",
+        "num_images": 4
+    },
+    {
+        "album_id": 1908360,
+        "num_tracks": 12,
+        "artist_id": 1103159,
+        "title": "Poker Face / Human",
+        "genres": "Electronic",
+        "year": "2008",
+        "num_images": 2
+    },
+    {
+        "album_id": 20296,
+        "num_tracks": 3,
+        "artist_id": 321128,
+        "title": "Pon De Replay",
+        "genres": "Electronic:Hip Hop",
+        "year": "2005",
+        "num_images": 4
+    },
+    {
+        "album_id": 51693,
+        "num_tracks": 4,
+        "artist_id": 3840,
+        "title": "Pop Is Dead",
+        "genres": "Rock",
+        "year": "1993",
+        "num_images": 3
+    },
+    {
+        "album_id": 609366,
+        "num_tracks": 16,
+        "artist_id": 971243,
+        "title": "Prism",
+        "genres": "Electronic:Hip Hop:Rock:Pop",
+        "year": "2013",
+        "num_images": 9
+    },
+    {
+        "album_id": 3021530,
+        "num_tracks": 14,
+        "artist_id": 1103159,
+        "title": "Promotional Compilation",
+        "genres": "Electronic",
+        "year": "2010",
+        "num_images": 2
+    },
+    {
+        "album_id": 544759,
+        "num_tracks": 9,
+        "artist_id": 3840,
+        "title": "Radiohead - In-Store Compilation",
+        "genres": "Rock",
+        "year": "1996",
+        "num_images": 2
+    },
+    {
+        "album_id": 4619460,
+        "num_tracks": 20,
+        "artist_id": 33287,
+        "title": "Rarities",
+        "genres": "Rock:Pop",
+        "year": "2013",
+        "num_images": 1
+    },
+    {
+        "album_id": 206209,
+        "num_tracks": 13,
+        "artist_id": 321128,
+        "title": "Rated R",
+        "genres": "Electronic:Pop",
+        "year": "2009",
+        "num_images": 5
+    },
+    {
+        "album_id": 264100,
+        "num_tracks": 10,
+        "artist_id": 321128,
+        "title": "Rated R /// Remixed",
+        "genres": "Electronic:Hip Hop:Pop",
+        "year": "2010",
+        "num_images": 11
+    },
+    {
+        "album_id": 445399,
+        "num_tracks": 22,
+        "artist_id": 97334,
+        "title": "Ravermeister Vol. 3",
+        "genres": "Electronic",
+        "year": "1996",
+        "num_images": 4
+    },
+    {
+        "album_id": 445399,
+        "num_tracks": 22,
+        "artist_id": 97334,
+        "title": "Ravermeister Vol. 3",
+        "genres": "Electronic",
+        "year": "1996",
+        "num_images": 4
+    },
+    {
+        "album_id": 6558662,
+        "num_tracks": 16,
+        "artist_id": 1124645,
+        "title": "Red",
+        "genres": "Pop:Folk, World, & Country",
+        "year": "2012",
+        "num_images": 2
+    },
+    {
+        "album_id": 572389,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "Red",
+        "genres": "Electronic:Rock:Reggae:Pop:Folk, World, & Country",
+        "year": "2012",
+        "num_images": 1
+    },
+    {
+        "album_id": 488435,
+        "num_tracks": 16,
+        "artist_id": 1124645,
+        "title": "Red",
+        "genres": "Pop:Folk, World, & Country",
+        "year": "2012",
+        "num_images": 3
+    },
+    {
+        "album_id": 20486,
+        "num_tracks": 2,
+        "artist_id": 321128,
+        "title": "Rehab",
+        "genres": "Hip Hop",
+        "year": "2009",
+        "num_images": 1
+    },
+    {
+        "album_id": 2413713,
+        "num_tracks": 7,
+        "artist_id": 1103159,
+        "title": "Return The Favor / Eh, Eh (Nothing Else I Can Say)",
+        "genres": "Pop",
+        "year": "2009",
+        "num_images": 2
+    },
+    {
+        "album_id": 3339179,
+        "num_tracks": 45,
+        "artist_id": 321128,
+        "title": "Rihanna",
+        "genres": "Hip Hop:Pop",
+        "year": "2009",
+        "num_images": 2
+    },
+    {
+        "album_id": 584992,
+        "num_tracks": 2,
+        "artist_id": 971243,
+        "title": "Roar",
+        "genres": "Pop",
+        "year": "2013",
+        "num_images": 4
+    },
+    {
+        "album_id": 321810,
+        "num_tracks": 1,
+        "artist_id": 321128,
+        "title": "Rockstar 101",
+        "genres": "Rock",
+        "year": "2009",
+        "num_images": 1
+    },
+    {
+        "album_id": 20481,
+        "num_tracks": 6,
+        "artist_id": 321128,
+        "title": "Roll It",
+        "genres": "Funk / Soul:Hip Hop",
+        "year": "2008",
+        "num_images": 3
+    },
+    {
+        "album_id": 81042,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "Roll Over Beethoven / Please Mister Postman",
+        "genres": "Rock",
+        "year": "0",
+        "num_images": 3
+    },
+    {
+        "album_id": 4682337,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "Ronan",
+        "genres": "Folk, World, & Country",
+        "year": "2012",
+        "num_images": 1
+    },
+    {
+        "album_id": 6328995,
+        "num_tracks": 5,
+        "artist_id": 971243,
+        "title": "Royal Revolution",
+        "genres": "Pop",
+        "year": "2014",
+        "num_images": 4
+    },
+    {
+        "album_id": 234526,
+        "num_tracks": 2,
+        "artist_id": 321128,
+        "title": "Rude Boy",
+        "genres": "Electronic:Hip Hop",
+        "year": "2010",
+        "num_images": 4
+    },
+    {
+        "album_id": 303925,
+        "num_tracks": 2,
+        "artist_id": 321128,
+        "title": "Run This Town",
+        "genres": "Hip Hop",
+        "year": "2009",
+        "num_images": 4
+    },
+    {
+        "album_id": 199248,
+        "num_tracks": 2,
+        "artist_id": 321128,
+        "title": "Russian Roulette",
+        "genres": "Hip Hop",
+        "year": "2009",
+        "num_images": 4
+    },
+    {
+        "album_id": 657515,
+        "num_tracks": 1,
+        "artist_id": 321128,
+        "title": "S&M (Remix)",
+        "genres": "Electronic:Hip Hop:Pop",
+        "year": "2011",
+        "num_images": 1
+    },
+    {
+        "album_id": 20228,
+        "num_tracks": 2,
+        "artist_id": 321128,
+        "title": "SOS",
+        "genres": "Electronic:Hip Hop",
+        "year": "2006",
+        "num_images": 4
+    },
+    {
+        "album_id": 3371827,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "Safe & Sound (From \"The Hunger Games\" Soundtrack)",
+        "genres": "Folk, World, & Country:Stage & Screen",
+        "year": "2011",
+        "num_images": 1
+    },
+    {
+        "album_id": 723107,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "Shake It Off",
+        "genres": "Pop",
+        "year": "2014",
+        "num_images": 1
+    },
+    {
+        "album_id": 45587,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "She Loves You",
+        "genres": "Rock",
+        "year": "1963",
+        "num_images": 5
+    },
+    {
+        "album_id": 279447,
+        "num_tracks": 4,
+        "artist_id": 82730,
+        "title": "She Loves You",
+        "genres": "Rock",
+        "year": "1963",
+        "num_images": 3
+    },
+    {
+        "album_id": 2384866,
+        "num_tracks": 2,
+        "artist_id": 1124645,
+        "title": "Should've Said No",
+        "genres": "Folk, World, & Country",
+        "year": "2008",
+        "num_images": 1
+    },
+    {
+        "album_id": 20411,
+        "num_tracks": 2,
+        "artist_id": 321128,
+        "title": "Shut Up And Drive",
+        "genres": "Electronic:Rock:Pop",
+        "year": "2007",
+        "num_images": 3
+    },
+    {
+        "album_id": 3933124,
+        "num_tracks": 3,
+        "artist_id": 1124645,
+        "title": "Silent Night Christmases When You Were Mine Christmas Must Be Something More",
+        "genres": "Folk, World, & Country",
+        "year": "2007",
+        "num_images": 1
+    },
+    {
+        "album_id": 2334913,
+        "num_tracks": 1,
+        "artist_id": 82730,
+        "title": "Sincere Good Wishes For Christmas And The New Year",
+        "genres": "Non-Music",
+        "year": "1963",
+        "num_images": 4
+    },
+    {
+        "album_id": 117534,
+        "num_tracks": 4,
+        "artist_id": 33287,
+        "title": "Sister Jack",
+        "genres": "Rock",
+        "year": "2005",
+        "num_images": 4
+    },
+    {
+        "album_id": 100878,
+        "num_tracks": 4,
+        "artist_id": 137880,
+        "title": "Slow Jamz",
+        "genres": "Hip Hop",
+        "year": "2004",
+        "num_images": 1
+    },
+    {
+        "album_id": 271061,
+        "num_tracks": 6,
+        "artist_id": 137880,
+        "title": "Slow Jamz / Badunkadunk",
+        "genres": "Hip Hop",
+        "year": "2003",
+        "num_images": 3
+    },
+    {
+        "album_id": 43645,
+        "num_tracks": 5,
+        "artist_id": 33287,
+        "title": "Soft Effects EP",
+        "genres": "Rock",
+        "year": "1997",
+        "num_images": 4
+    },
+    {
+        "album_id": 1038929,
+        "num_tracks": 3,
+        "artist_id": 33287,
+        "title": "Someone Something",
+        "genres": "Rock",
+        "year": "2002",
+        "num_images": 2
+    },
+    {
+        "album_id": 1595934,
+        "num_tracks": 7,
+        "artist_id": 33287,
+        "title": "Something To Look Forward To",
+        "genres": "Rock",
+        "year": "2007",
+        "num_images": 1
+    },
+    {
+        "album_id": 4399692,
+        "num_tracks": 14,
+        "artist_id": 8760,
+        "title": "Soul On Sound 024",
+        "genres": "Electronic:Hip Hop:Jazz:Funk / Soul",
+        "year": "1983",
+        "num_images": 5
+    },
+    {
+        "album_id": 573642,
+        "num_tracks": 6,
+        "artist_id": 1124645,
+        "title": "Sounds Of The Season: The Taylor Swift Holiday Collection",
+        "genres": "Pop:Folk, World, & Country",
+        "year": "2007",
+        "num_images": 1
+    },
+    {
+        "album_id": 4674717,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "Sparks Fly",
+        "genres": "Pop:Folk, World, & Country",
+        "year": "2011",
+        "num_images": 1
+    },
+    {
+        "album_id": 4674691,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "Speak Now",
+        "genres": "Pop:Folk, World, & Country",
+        "year": "2010",
+        "num_images": 1
+    },
+    {
+        "album_id": 288143,
+        "num_tracks": 14,
+        "artist_id": 1124645,
+        "title": "Speak Now",
+        "genres": "Pop:Folk, World, & Country",
+        "year": "2010",
+        "num_images": 1
+    },
+    {
+        "album_id": 401273,
+        "num_tracks": 39,
+        "artist_id": 1124645,
+        "title": "Speak Now World Tour Live CD+DVD",
+        "genres": "Folk, World, & Country",
+        "year": "2011",
+        "num_images": 1
+    },
+    {
+        "album_id": 43612,
+        "num_tracks": 4,
+        "artist_id": 33287,
+        "title": "Spoon / Swearing At Motorists",
+        "genres": "Rock",
+        "year": "2002",
+        "num_images": 2
+    },
+    {
+        "album_id": 442367,
+        "num_tracks": 1,
+        "artist_id": 971243,
+        "title": "Starstrukk",
+        "genres": "Electronic:Pop:Rock",
+        "year": "2009",
+        "num_images": 1
+    },
+    {
+        "album_id": 605567,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "State Of Grace",
+        "genres": "Folk, World, & Country",
+        "year": "2012",
+        "num_images": 1
+    },
+    {
+        "album_id": 670481,
+        "num_tracks": 4,
+        "artist_id": 33287,
+        "title": "Stay Don't Go",
+        "genres": "Rock",
+        "year": "2003",
+        "num_images": 4
+    },
+    {
+        "album_id": 21534,
+        "num_tracks": 4,
+        "artist_id": 3840,
+        "title": "Stop Whispering",
+        "genres": "Rock",
+        "year": "1993",
+        "num_images": 5
+    },
+    {
+        "album_id": 73763,
+        "num_tracks": 4,
+        "artist_id": 3840,
+        "title": "Street Spirit (Fade Out)",
+        "genres": "Electronic:Rock",
+        "year": "1996",
+        "num_images": 4
+    },
+    {
+        "album_id": 8446,
+        "num_tracks": 2,
+        "artist_id": 137880,
+        "title": "Stronger",
+        "genres": "Hip Hop",
+        "year": "2007",
+        "num_images": 2
+    },
+    {
+        "album_id": 652939,
+        "num_tracks": 1,
+        "artist_id": 1103159,
+        "title": "Stuck On Fuckin' You",
+        "genres": "Electronic:Pop",
+        "year": "2011",
+        "num_images": 1
+    },
+    {
+        "album_id": 3547613,
+        "num_tracks": 6,
+        "artist_id": 137880,
+        "title": "Summer Collection EP",
+        "genres": "Hip Hop",
+        "year": "2006",
+        "num_images": 2
+    },
+    {
+        "album_id": 5034657,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "Sweeter Than Fiction (From \"One Chance\")",
+        "genres": "Pop:Folk, World, & Country",
+        "year": "2013",
+        "num_images": 1
+    },
+    {
+        "album_id": 20466,
+        "num_tracks": 2,
+        "artist_id": 321128,
+        "title": "Take A Bow",
+        "genres": "Electronic:Pop",
+        "year": "2008",
+        "num_images": 4
+    },
+    {
+        "album_id": 57752,
+        "num_tracks": 4,
+        "artist_id": 137880,
+        "title": "Talk About Our Love",
+        "genres": "Hip Hop",
+        "year": "2004",
+        "num_images": 3
+    },
+    {
+        "album_id": 138812,
+        "num_tracks": 13,
+        "artist_id": 1124645,
+        "title": "Taylor Swift",
+        "genres": "Folk, World, & Country",
+        "year": "2006",
+        "num_images": 1
+    },
+    {
+        "album_id": 419704,
+        "num_tracks": 2,
+        "artist_id": 321128,
+        "title": "Te Amo",
+        "genres": "Electronic:Hip Hop",
+        "year": "2010",
+        "num_images": 4
+    },
+    {
+        "album_id": 350037,
+        "num_tracks": 2,
+        "artist_id": 1124645,
+        "title": "Teardrops On My Guitar",
+        "genres": "Folk, World, & Country",
+        "year": "2008",
+        "num_images": 1
+    },
+    {
+        "album_id": 271611,
+        "num_tracks": 14,
+        "artist_id": 971243,
+        "title": "Teenage Dream",
+        "genres": "Electronic:Pop",
+        "year": "2010",
+        "num_images": 11
+    },
+    {
+        "album_id": 273911,
+        "num_tracks": 2,
+        "artist_id": 971243,
+        "title": "Teenage Dream",
+        "genres": "Electronic:Pop",
+        "year": "2010",
+        "num_images": 4
+    },
+    {
+        "album_id": 422580,
+        "num_tracks": 19,
+        "artist_id": 971243,
+        "title": "Teenage Dream - The Complete Confection",
+        "genres": "Electronic:Pop",
+        "year": "2012",
+        "num_images": 19
+    },
+    {
+        "album_id": 234339,
+        "num_tracks": 2,
+        "artist_id": 1103159,
+        "title": "Telephone",
+        "genres": "Electronic:Pop",
+        "year": "2010",
+        "num_images": 4
+    },
+    {
+        "album_id": 43640,
+        "num_tracks": 14,
+        "artist_id": 33287,
+        "title": "Telephono",
+        "genres": "Rock",
+        "year": "1996",
+        "num_images": 4
+    },
+    {
+        "album_id": 744621,
+        "num_tracks": 22,
+        "artist_id": 33287,
+        "title": "Telephono / Soft Effects EP",
+        "genres": "Rock",
+        "year": "2006",
+        "num_images": 1
+    },
+    {
+        "album_id": 93305,
+        "num_tracks": 4,
+        "artist_id": 137880,
+        "title": "Tell Me When To Go",
+        "genres": "Hip Hop",
+        "year": "2006",
+        "num_images": 2
+    },
+    {
+        "album_id": 156216,
+        "num_tracks": 13,
+        "artist_id": 971243,
+        "title": "Testify",
+        "genres": "Rock",
+        "year": "2006",
+        "num_images": 1
+    },
+    {
+        "album_id": 670471,
+        "num_tracks": 2,
+        "artist_id": 33287,
+        "title": "The Agony Of Laffitte",
+        "genres": "Rock",
+        "year": "1999",
+        "num_images": 3
+    },
+    {
+        "album_id": 755463,
+        "num_tracks": 4,
+        "artist_id": 82730,
+        "title": "The Beatles",
+        "genres": "Rock",
+        "year": "1963",
+        "num_images": 5
+    },
+    {
+        "album_id": 550365,
+        "num_tracks": 4,
+        "artist_id": 82730,
+        "title": "The Beatles & Tony Sheridan",
+        "genres": "Rock",
+        "year": "1963",
+        "num_images": 4
+    },
+    {
+        "album_id": 46127,
+        "num_tracks": 4,
+        "artist_id": 82730,
+        "title": "The Beatles No.1",
+        "genres": "Rock",
+        "year": "1963",
+        "num_images": 3
+    },
+    {
+        "album_id": 45689,
+        "num_tracks": 4,
+        "artist_id": 82730,
+        "title": "The Beatles' Hits",
+        "genres": "Rock",
+        "year": "1963",
+        "num_images": 2
+    },
+    {
+        "album_id": 17008,
+        "num_tracks": 12,
+        "artist_id": 3840,
+        "title": "The Bends",
+        "genres": "Rock",
+        "year": "1995",
+        "num_images": 6
+    },
+    {
+        "album_id": 133621,
+        "num_tracks": 3,
+        "artist_id": 3840,
+        "title": "The Bends",
+        "genres": "Rock",
+        "year": "1996",
+        "num_images": 1
+    },
+    {
+        "album_id": 3680733,
+        "num_tracks": 5,
+        "artist_id": 3840,
+        "title": "The Bends (Pinkpop Edition)",
+        "genres": "Rock",
+        "year": "1996",
+        "num_images": 1
+    },
+    {
+        "album_id": 2686882,
+        "num_tracks": 26,
+        "artist_id": 3840,
+        "title": "The Bends + Pablo Honey",
+        "genres": "Rock",
+        "year": "1996",
+        "num_images": 9
+    },
+    {
+        "album_id": 77394,
+        "num_tracks": 3,
+        "artist_id": 1103159,
+        "title": "The Cherrytree Sessions",
+        "genres": "Electronic:Pop:Rock",
+        "year": "2009",
+        "num_images": 2
+    },
+    {
+        "album_id": 6983,
+        "num_tracks": 21,
+        "artist_id": 137880,
+        "title": "The College Dropout",
+        "genres": "Hip Hop",
+        "year": "2004",
+        "num_images": 4
+    },
+    {
+        "album_id": 234139,
+        "num_tracks": 8,
+        "artist_id": 137880,
+        "title": "The College Dropout Video Anthology",
+        "genres": "Hip Hop",
+        "year": "2005",
+        "num_images": 1
+    },
+    {
+        "album_id": 1482291,
+        "num_tracks": 1,
+        "artist_id": 1103159,
+        "title": "The DJ Vice Megamix",
+        "genres": "Electronic:Pop",
+        "year": "2008",
+        "num_images": 3
+    },
+    {
+        "album_id": 4236087,
+        "num_tracks": 1,
+        "artist_id": 3840,
+        "title": "The Daily Show Comedy Central",
+        "genres": "Rock:Non-Music",
+        "year": "1997",
+        "num_images": 1
+    },
+    {
+        "album_id": 1610592,
+        "num_tracks": 42,
+        "artist_id": 971243,
+        "title": "The Dome Vol. 48",
+        "genres": "Electronic:Hip Hop:Rock:Pop",
+        "year": "2008",
+        "num_images": 4
+    },
+    {
+        "album_id": 342489,
+        "num_tracks": 2,
+        "artist_id": 1103159,
+        "title": "The Edge Of Glory",
+        "genres": "Electronic:Pop",
+        "year": "2011",
+        "num_images": 4
+    },
+    {
+        "album_id": 11126,
+        "num_tracks": 14,
+        "artist_id": 1103159,
+        "title": "The Fame",
+        "genres": "Electronic:Hip Hop:Pop",
+        "year": "2008",
+        "num_images": 5
+    },
+    {
+        "album_id": 201057,
+        "num_tracks": 8,
+        "artist_id": 1103159,
+        "title": "The Fame Monster",
+        "genres": "Electronic:Pop",
+        "year": "2009",
+        "num_images": 5
+    },
+    {
+        "album_id": 4746816,
+        "num_tracks": 2,
+        "artist_id": 8760,
+        "title": "The Guilty Virgin/One Way Love Affair",
+        "genres": "Electronic",
+        "year": "1985",
+        "num_images": 2
+    },
+    {
+        "album_id": 3031658,
+        "num_tracks": 8,
+        "artist_id": 971243,
+        "title": "The Hello Katy Australian Tour EP",
+        "genres": "Electronic:Rock:Pop",
+        "year": "2009",
+        "num_images": 5
+    },
+    {
+        "album_id": 6273254,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "The Last Time",
+        "genres": "Pop:Folk, World, & Country",
+        "year": "2012",
+        "num_images": 3
+    },
+    {
+        "album_id": 386717,
+        "num_tracks": 23,
+        "artist_id": 1103159,
+        "title": "The Monster Ball Tour At Madison Square Garden",
+        "genres": "Electronic:Pop:Rock",
+        "year": "2011",
+        "num_images": 3
+    },
+    {
+        "album_id": 1061053,
+        "num_tracks": 4,
+        "artist_id": 33287,
+        "title": "The Nefarious EP",
+        "genres": "Rock",
+        "year": "1994",
+        "num_images": 2
+    },
+    {
+        "album_id": 207869,
+        "num_tracks": 3,
+        "artist_id": 137880,
+        "title": "The New Workout Plan",
+        "genres": "Hip Hop",
+        "year": "2004",
+        "num_images": 1
+    },
+    {
+        "album_id": 349497,
+        "num_tracks": 8,
+        "artist_id": 321128,
+        "title": "The One",
+        "genres": "Hip Hop",
+        "year": "2005",
+        "num_images": 1
+    },
+    {
+        "album_id": 130874,
+        "num_tracks": 4,
+        "artist_id": 137880,
+        "title": "The One",
+        "genres": "Electronic:Hip Hop",
+        "year": "2004",
+        "num_images": 3
+    },
+    {
+        "album_id": 404750,
+        "num_tracks": 2,
+        "artist_id": 971243,
+        "title": "The One That Got Away (Radio Mix)",
+        "genres": "Pop",
+        "year": "2011",
+        "num_images": 2
+    },
+    {
+        "album_id": 5452725,
+        "num_tracks": 4,
+        "artist_id": 1103159,
+        "title": "The Queen",
+        "genres": "Rock:Pop",
+        "year": "2011",
+        "num_images": 1
+    },
+    {
+        "album_id": 245419,
+        "num_tracks": 10,
+        "artist_id": 1103159,
+        "title": "The Remix",
+        "genres": "Electronic:Pop",
+        "year": "2010",
+        "num_images": 4
+    },
+    {
+        "album_id": 2651622,
+        "num_tracks": 29,
+        "artist_id": 1103159,
+        "title": "The Singles",
+        "genres": "Electronic:Pop",
+        "year": "2010",
+        "num_images": 40
+    },
+    {
+        "album_id": 4674702,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "The Story Of Us",
+        "genres": "Rock:Pop:Folk, World, & Country",
+        "year": "2011",
+        "num_images": 1
+    },
+    {
+        "album_id": 1593316,
+        "num_tracks": 1,
+        "artist_id": 33287,
+        "title": "The Underdog",
+        "genres": "Rock",
+        "year": "2007",
+        "num_images": 1
+    },
+    {
+        "album_id": 688962,
+        "num_tracks": 2,
+        "artist_id": 33287,
+        "title": "The Underdog (Demo)",
+        "genres": "Rock",
+        "year": "2007",
+        "num_images": 2
+    },
+    {
+        "album_id": 34921,
+        "num_tracks": 10,
+        "artist_id": 8760,
+        "title": "The Virgin Tour Live",
+        "genres": "Electronic",
+        "year": "1985",
+        "num_images": 3
+    },
+    {
+        "album_id": 674856,
+        "num_tracks": 10,
+        "artist_id": 33287,
+        "title": "The Way We Get By",
+        "genres": "Rock",
+        "year": "2003",
+        "num_images": 4
+    },
+    {
+        "album_id": 717187,
+        "num_tracks": 10,
+        "artist_id": 33287,
+        "title": "They Want My Soul",
+        "genres": "Rock",
+        "year": "2014",
+        "num_images": 1
+    },
+    {
+        "album_id": 4403770,
+        "num_tracks": 2,
+        "artist_id": 3840,
+        "title": "Thinking About You",
+        "genres": "Rock",
+        "year": "1993",
+        "num_images": 2
+    },
+    {
+        "album_id": 90967,
+        "num_tracks": 4,
+        "artist_id": 971243,
+        "title": "Thinking Of You",
+        "genres": "Pop",
+        "year": "2009",
+        "num_images": 3
+    },
+    {
+        "album_id": 5310120,
+        "num_tracks": 12,
+        "artist_id": 321128,
+        "title": "This Is Rihanna",
+        "genres": "Reggae:Funk / Soul:Pop",
+        "year": "2004",
+        "num_images": 2
+    },
+    {
+        "album_id": 66406,
+        "num_tracks": 2,
+        "artist_id": 137880,
+        "title": "This Way",
+        "genres": "Hip Hop",
+        "year": "2004",
+        "num_images": 1
+    },
+    {
+        "album_id": 6994,
+        "num_tracks": 5,
+        "artist_id": 137880,
+        "title": "Through The Wire",
+        "genres": "Hip Hop",
+        "year": "2003",
+        "num_images": 4
+    },
+    {
+        "album_id": 5545111,
+        "num_tracks": 3,
+        "artist_id": 1124645,
+        "title": "Tim Mcgraw",
+        "genres": "Rock:Pop:Folk, World, & Country",
+        "year": "2006",
+        "num_images": 4
+    },
+    {
+        "album_id": 7125,
+        "num_tracks": 2,
+        "artist_id": 137880,
+        "title": "Touch The Sky",
+        "genres": "Hip Hop",
+        "year": "2006",
+        "num_images": 2
+    },
+    {
+        "album_id": 1867682,
+        "num_tracks": 4,
+        "artist_id": 137880,
+        "title": "Touch The Sky / Crack Music",
+        "genres": "Hip Hop",
+        "year": "2005",
+        "num_images": 1
+    },
+    {
+        "album_id": 222123,
+        "num_tracks": 11,
+        "artist_id": 33287,
+        "title": "Transference",
+        "genres": "Rock",
+        "year": "2010",
+        "num_images": 1
+    },
+    {
+        "album_id": 2449157,
+        "num_tracks": 2,
+        "artist_id": 33287,
+        "title": "Trouble Comes Running // The Mystery Zone",
+        "genres": "Rock",
+        "year": "2010",
+        "num_images": 1
+    },
+    {
+        "album_id": 67836,
+        "num_tracks": 9,
+        "artist_id": 8760,
+        "title": "True Blue",
+        "genres": "Electronic:Pop",
+        "year": "1986",
+        "num_images": 4
+    },
+    {
+        "album_id": 66319,
+        "num_tracks": 2,
+        "artist_id": 8760,
+        "title": "True Blue",
+        "genres": "Electronic",
+        "year": "1986",
+        "num_images": 4
+    },
+    {
+        "album_id": 672901,
+        "num_tracks": 5,
+        "artist_id": 8760,
+        "title": "True Blue (Super Club Mix)",
+        "genres": "Electronic",
+        "year": "1986",
+        "num_images": 4
+    },
+    {
+        "album_id": 45697,
+        "num_tracks": 4,
+        "artist_id": 82730,
+        "title": "Twist And Shout",
+        "genres": "Rock",
+        "year": "1963",
+        "num_images": 4
+    },
+    {
+        "album_id": 456364,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "Twist And Shout",
+        "genres": "Rock",
+        "year": "1963",
+        "num_images": 2
+    },
+    {
+        "album_id": 515840,
+        "num_tracks": 2,
+        "artist_id": 82730,
+        "title": "Twist And Shout",
+        "genres": "Rock:Pop",
+        "year": "1963",
+        "num_images": 1
+    },
+    {
+        "album_id": 20420,
+        "num_tracks": 4,
+        "artist_id": 321128,
+        "title": "Umbrella",
+        "genres": "Electronic:Hip Hop",
+        "year": "2007",
+        "num_images": 4
+    },
+    {
+        "album_id": 5921946,
+        "num_tracks": 2,
+        "artist_id": 321128,
+        "title": "Umbrella / Breakin' Dishes",
+        "genres": "Pop",
+        "year": "2007",
+        "num_images": 1
+    },
+    {
+        "album_id": 784378,
+        "num_tracks": 13,
+        "artist_id": 971243,
+        "title": "Unbeautiful",
+        "genres": "Rock:Pop",
+        "year": "2008",
+        "num_images": 2
+    },
+    {
+        "album_id": 650953,
+        "num_tracks": 2,
+        "artist_id": 971243,
+        "title": "Unconditionally",
+        "genres": "Pop",
+        "year": "2013",
+        "num_images": 4
+    },
+    {
+        "album_id": 20339,
+        "num_tracks": 4,
+        "artist_id": 321128,
+        "title": "Unfaithful",
+        "genres": "Hip Hop:Pop",
+        "year": "2006",
+        "num_images": 4
+    },
+    {
+        "album_id": 106499,
+        "num_tracks": 7,
+        "artist_id": 971243,
+        "title": "Ur So Gay",
+        "genres": "Electronic:Hip Hop:Rock:Pop",
+        "year": "2007",
+        "num_images": 4
+    },
+    {
+        "album_id": 613067,
+        "num_tracks": 1,
+        "artist_id": 1103159,
+        "title": "Venus",
+        "genres": "Electronic:Pop",
+        "year": "2013",
+        "num_images": 2
+    },
+    {
+        "album_id": 2764499,
+        "num_tracks": 8,
+        "artist_id": 1103159,
+        "title": "Videos",
+        "genres": "Electronic:Pop",
+        "year": "2011",
+        "num_images": 2
+    },
+    {
+        "album_id": 106498,
+        "num_tracks": 2,
+        "artist_id": 971243,
+        "title": "Waking Up In Vegas",
+        "genres": "Electronic:Pop",
+        "year": "2009",
+        "num_images": 3
+    },
+    {
+        "album_id": 5673963,
+        "num_tracks": 2,
+        "artist_id": 321128,
+        "title": "Wal-Mart Soundcheck",
+        "genres": "Hip Hop:Pop",
+        "year": "2007",
+        "num_images": 2
+    },
+    {
+        "album_id": 233013,
+        "num_tracks": 12,
+        "artist_id": 971243,
+        "title": "Want",
+        "genres": "Electronic:Hip Hop",
+        "year": "2008",
+        "num_images": 3
+    },
+    {
+        "album_id": 483665,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "We Are Never Ever Getting Back Together",
+        "genres": "Pop:Folk, World, & Country",
+        "year": "2012",
+        "num_images": 1
+    },
+    {
+        "album_id": 20370,
+        "num_tracks": 4,
+        "artist_id": 321128,
+        "title": "We Ride",
+        "genres": "Hip Hop:Funk / Soul",
+        "year": "2006",
+        "num_images": 4
+    },
+    {
+        "album_id": 309120,
+        "num_tracks": 2,
+        "artist_id": 321128,
+        "title": "What's My Name?",
+        "genres": "Electronic:Hip Hop:Pop",
+        "year": "2011",
+        "num_images": 4
+    },
+    {
+        "album_id": 2746793,
+        "num_tracks": 2,
+        "artist_id": 8760,
+        "title": "Where's The Party",
+        "genres": "Electronic",
+        "year": "1986",
+        "num_images": 2
+    },
+    {
+        "album_id": 732764,
+        "num_tracks": 2,
+        "artist_id": 1124645,
+        "title": "White Horse",
+        "genres": "Folk, World, & Country",
+        "year": "2008",
+        "num_images": 1
+    },
+    {
+        "album_id": 66193,
+        "num_tracks": 3,
+        "artist_id": 8760,
+        "title": "Who's That Girl",
+        "genres": "Electronic",
+        "year": "1987",
+        "num_images": 4
+    },
+    {
+        "album_id": 630533,
+        "num_tracks": 2,
+        "artist_id": 971243,
+        "title": "Wide Awake",
+        "genres": "Pop",
+        "year": "2012",
+        "num_images": 2
+    },
+    {
+        "album_id": 260284,
+        "num_tracks": 2,
+        "artist_id": 8760,
+        "title": "Wild Dancing",
+        "genres": "Electronic",
+        "year": "1987",
+        "num_images": 3
+    },
+    {
+        "album_id": 4486266,
+        "num_tracks": 4,
+        "artist_id": 82730,
+        "title": "With The Beatles",
+        "genres": "Rock:Pop",
+        "year": "1963",
+        "num_images": 4
+    },
+    {
+        "album_id": 45729,
+        "num_tracks": 14,
+        "artist_id": 82730,
+        "title": "With The Beatles",
+        "genres": "Rock",
+        "year": "1963",
+        "num_images": 4
+    },
+    {
+        "album_id": 97654,
+        "num_tracks": 8,
+        "artist_id": 137880,
+        "title": "Wouldn't Get Far",
+        "genres": "Hip Hop",
+        "year": "2006",
+        "num_images": 4
+    },
+    {
+        "album_id": 422325,
+        "num_tracks": 6,
+        "artist_id": 137880,
+        "title": "Wouldn't You Like To Ride",
+        "genres": "Hip Hop",
+        "year": "2003",
+        "num_images": 3
+    },
+    {
+        "album_id": 219641,
+        "num_tracks": 2,
+        "artist_id": 33287,
+        "title": "Written In Reverse",
+        "genres": "Rock",
+        "year": "2010",
+        "num_images": 4
+    },
+    {
+        "album_id": 478858,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "You Belong With Me",
+        "genres": "Rock:Pop:Folk, World, & Country",
+        "year": "2008",
+        "num_images": 1
+    },
+    {
+        "album_id": 1593325,
+        "num_tracks": 1,
+        "artist_id": 33287,
+        "title": "You Got Yr. Cherry Bomb",
+        "genres": "Rock",
+        "year": "2007",
+        "num_images": 1
+    },
+    {
+        "album_id": 573656,
+        "num_tracks": 1,
+        "artist_id": 1124645,
+        "title": "You're Not Sorry",
+        "genres": "Folk, World, & Country",
+        "year": "2008",
+        "num_images": 1
+    },
+    {
+        "album_id": 371513,
+        "num_tracks": 2,
+        "artist_id": 1103159,
+        "title": "Yo\u00fc And I",
+        "genres": "Rock:Pop",
+        "year": "2011",
+        "num_images": 4
+    },
+    {
+        "album_id": 3025955,
+        "num_tracks": 40,
+        "artist_id": 971243,
+        "title": "ZET Si\u0142a Muzyki Najlepsze Przeboje",
+        "genres": "Electronic:Pop",
+        "year": "2008",
+        "num_images": 4
+    }
+]
