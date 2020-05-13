@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/constants.h
+
+../include/parsetools.h
+
+/Volumes/jmartinez's home/cs450/lobo-shell/main.c
+stdio.h
+-
+sys/wait.h
+-
+unistd.h
+-
+stdlib.h
+-
+sys/types.h
+-
+errno.h
+-
+string.h
+-
+fcntl.h
+-
+constants.h
+/Volumes/jmartinez's home/cs450/lobo-shell/constants.h
+parsetools.h
+/Volumes/jmartinez's home/cs450/lobo-shell/parsetools.h
+

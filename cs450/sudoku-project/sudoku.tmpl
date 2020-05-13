@@ -1,0 +1,113 @@
+-------------------------------------------------------------------------------
+
+            +-------------------------+
+            | CS 450                  |
+            | PROJECT: SUDOKU CHECKER |
+            | DESIGN DOCUMENT         |
+            +-------------------------+
+
+---- GROUP ----
+
+>> Fill in the names and email addresses of your group members.
+
+FirstName LastName <email@domain.example>
+FirstName LastName <email@domain.example>
+
+---- PRELIMINARIES ----
+
+>> If you have any preliminary comments on your submission, notes for the
+>> TAs, or extra credit, please give them here.
+
+>> Please cite any offline or online sources you consulted while
+>> preparing your submission, other than the Pintos documentation, course
+>> text, lecture notes, and course staff.
+
+               THREADED SUDOKU CHECKER
+               =======================
+
+---- DATA STRUCTURES ----
+
+>> A1: Copy here the declaration of each new `struct',
+>> `struct' member, global or static variable, `typedef', or
+>> enumeration.  Identify the purpose of each in 25 words or less.
+
+---- ALGORITHMS ----
+
+>> A2: Briefly describe how you communicated to each worker thread
+>> the work it should perform, as a void *
+
+>> A3: Briefly describe the function(s) run by each worker. Explain
+if you could reduce the number of functions, by generalizing each
+problem in some way.
+
+---- SYNCHRONIZATION ----
+
+>> A4: Explain how the main thread knows when all the worker
+>> threads have completed their work.
+
+>> A5: Explain how the main thread knows when a particular worker
+>> thread has reported a property is missing.
+
+---- RATIONALE ----
+
+>> A6: Overzealous use of synchronization can cause code to become
+>> too serialized, and unable to take advantage of parallelism.
+>> Explain why you chose your design, arguing how it is highly 
+>> parallel, while the access to each resource is safe and deadlock free.
+
+>> A7: Explain how you ensured that your program has no resource leaks.
+>> List all the free-able resources and, for each, explain how you
+>> free them at the earliest possible time.
+
+
+               FORKING SUDOKU CHECKER
+               =======================
+
+---- DATA STRUCTURES ----
+
+>> B1: Copy here the declaration of each new `struct',
+>> `struct' member, global or static variable, `typedef', or
+>> enumeration.  Identify the purpose of each in 25 words or less.
+
+---- ALGORITHMS ----
+
+>> B2: Briefly describe if the method of communicating to each child
+thread or the function(s) run by each child was different than in
+your threaded implementation.
+
+---- SYNCHRONIZATION ----
+
+>> B3: Explain how the parent process knows when all the worker
+>> threads have completed their work.
+
+>> B4: Explain how the parent process knows when a particular worker
+>> thread has reported a property is missing.
+
+---- RATIONALE ----
+
+>> B5: Explain how you ensured that your program has no resource leaks.
+>> List all the free-able resources and, for each, explain how you
+>> free them at the earliest possible time.
+
+
+
+               SURVEY QUESTIONS
+               ================
+
+Answering these questions is optional, but it will help us improve the
+course in future quarters.  Feel free to tell us anything you
+want--these questions are just to spur your thoughts.  You may also
+choose to respond anonymously in the course evaluations at the end of
+the quarter.
+
+>> In your opinion, was this assignment, or any one of the problems
+>> in it, too easy or too hard?  Did it take too long or too little time?
+
+>> Did you find that working on a particular part of the assignment gave
+>> you greater insight into some aspect of OS design?
+
+>> Is there some particular fact or hint we should give students in
+>> future quarters to help them solve the problems?  Conversely, did you
+>> find any of our guidance to be misleading?
+
+>> Any other comments?

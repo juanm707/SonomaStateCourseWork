@@ -1,0 +1,124 @@
+-------------------------------------------------------------------------------
+
+            +-------------------------+
+            | CS 450                  |
+            | PROJECT: LOBO SHELL     |
+            | DESIGN DOCUMENT         |
+            +-------------------------+
+
+---- GROUP ----
+
+>> Fill in the names and email addresses of your group members.
+
+FirstName LastName <email@domain.example>
+FirstName LastName <email@domain.example>
+FirstName LastName <email@domain.example>
+
+---- PRELIMINARIES ----
+
+>> If you have any preliminary comments on your submission, notes for the
+>> TAs, or extra credit, please give them here.
+
+>> Please cite any offline or online sources you consulted while
+>> preparing your submission, other than the Pintos documentation, course
+>> text, lecture notes, and course staff.
+
+
+               LOBO SHELL
+               ==========
+
+---- DATA STRUCTURES ----
+
+>> A1: Copy here the declaration of each new `struct',
+>> `struct' member, global or static variable, `typedef', or
+>> enumeration.  Identify the purpose of each in 25 words or less.
+
+
+---- ALGORITHMS ----
+
+>> A2: Unix pipes allow synchronization among processes to facilitate
+>> interprocess communication (IPC). Consider a pipeline of arbitrary 
+>> length, like:
+>>     P[0] | P[1] | ... | P[i-1] | P[i] | P[i+1] | ... | P[n]
+>> Imagine a loop, like:
+>>     for i in 0 .. n: 
+>>         set-up-pipeline-for( process P[i] )
+
+>> What prior-created pipes would be used with process P[i]?
+    Use pipes pi-1, where i != 0
+
+>> What new pipes need to be created to set up P[i]'s pipeline? 
+  The pipes we need to be created, P0 uses p0, P1 needs p0 and p1, pi-1 and pi+1 in general and for Pn uses Pn-1.
+
+>> A3: Copy here the prototypes for any functions you have introduced.
+>> Identify the purpose of each in 50 words or less.
+
+>> A4: Briefly describe how the functions (from A3) are called
+>> when your shell is processing the user-entered commands:
+>>   foo | bar
+
+>> A5: Briefly describe your approch for reaping child processes. When do 
+>> you reap, and how much do you reap at a time? Would it be possible to
+>> reap children earlier than your current implementation and, if so, 
+>> what situations might that benefit?
+    Reap one at a time, reap when child is done in this case when it has finished its execlp command.
+
+---- SYNCHRONIZATION ----
+
+>> A6: Does any aspect of our shell require multithreading or related
+>> synchronization primitives (locks, semaphores)? Is the bash shell
+>> (http://git.savannah.gnu.org/cgit/bash.git/) multithreaded?
+>> What did you grep to determine the answer?
+
+
+---- RATIONALE ----
+
+>> A7: To open() a file for I/O re-direction requires file creation 
+>> flags and file permission modes be set. 
+>> List and explain the flag and status used in open(bar,...)
+>> for each of these situations:
+>>   (i) foo > bar
+     (i) FLAGS = [O_WRONLY, O_CREATE, O_TRUNC];
+>>  (ii) foo < bar
+    (ii) FLAGS = [O_RDONLY];
+>> (iii) foo >> bar
+   (iii) FLAGS = [O_WRONLY, O_CREATE, O_APPEND]
+>> Explain why you selected this default behavior, and compare it 
+>> to some existing shell you have used.
+
+>> A8: How does your implementation function in each of these scenarios:
+>>   (i) foo < bar, when "bar" does not exist? 
+>>  (ii) foo > bar, when "bar" does not exist? 
+>> (iii) foo < bar, when "bar" exists but you lack permission to read it?
+>>  (iv) foo > bar, when "bar" exists but you lack permission to write it?
+>>   (v) foo > bar, when "bar" cannot be created?
+>> In each case, explain your design decision.
+
+>> A9: Develop a new test, not covered by existing tests. Provide the 
+>> code implementing that test. When possible, follow the format of 
+>> existing tests. Explain what functionality it tests and how it goes 
+>> beyond the provided tests.
+
+
+
+
+               SURVEY QUESTIONS
+               ================
+
+Answering these questions is optional, but it will help us improve the
+course in future quarters.  Feel free to tell us anything you
+want--these questions are just to spur your thoughts.  You may also
+choose to respond anonymously in the course evaluations at the end of
+the quarter.
+
+>> In your opinion, was this assignment, or any one of the problems
+>> in it, too easy or too hard?  Did it take too long or too little time?
+
+>> Did you find that working on a particular part of the assignment gave
+>> you greater insight into some aspect of OS design?
+
+>> Is there some particular fact or hint we should give students in
+>> future quarters to help them solve the problems?  Conversely, did you
+>> find any of our guidance to be misleading?
+
+>> Any other comments?

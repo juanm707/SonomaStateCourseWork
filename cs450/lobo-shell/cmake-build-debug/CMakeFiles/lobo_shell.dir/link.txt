@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/lobo_shell.dir/src/parsetools.c.o CMakeFiles/lobo_shell.dir/main.c.o  -o lobo_shell 

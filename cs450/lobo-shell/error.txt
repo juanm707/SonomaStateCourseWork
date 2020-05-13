@@ -1,0 +1,1 @@
+cat: a.txt: No such file or directory
